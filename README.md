@@ -40,14 +40,14 @@
 pkg update ; pkg install git
 ```
 
-<hr>
+<br>
 
 <b>After install packages copy this command to clone the tool and run it</b>
 ```sh
 git clone https://github.com/mrx7014/AFFT ; cd AFFT ; chmod +x AFFT.sh ; ./AFFT.sh
 ```
 
-<hr>
+<br>
 
 <b>Now tool is working with you, Have Fun :)</b>
 
@@ -60,6 +60,6 @@ git clone https://github.com/mrx7014/AFFT ; cd AFFT ; chmod +x AFFT.sh ; ./AFFT.
 
 <a href="https://t.me/SamsungTweaks">Samsung Tweaks Telegram Channel</a>
 
-<hr>
+<br>
 
 <a href="https://t.me/A235channel">A23 Telegram Channel</a>

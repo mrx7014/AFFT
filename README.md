@@ -51,15 +51,15 @@ git clone https://github.com/mrx7014/AFFT ; cd AFFT ; chmod +x AFFT.sh ; ./AFFT.
 
 <b>Now tool is working with you, Have Fun :)</b>
 
-<br>
+<hr>
 
 # Credits:
 <a href="https://xdaforums.com/t/additional-features-for-samsung-devices.4181105/#post-83781033">el0xren XDA</a>
 
-<hr>
+<br>
 
 <a href="https://t.me/SamsungTweaks">Samsung Tweaks Telegram Channel</a>
 
-<br>
+<hr>
 
 <a href="https://t.me/A235channel">A23 Telegram Channel</a>

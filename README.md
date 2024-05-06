@@ -55,6 +55,9 @@ git clone https://github.com/mrx7014/AFFT ; cd AFFT ; chmod +x AFFT.sh ; ./AFFT.
 
 # Credits:
 <a href="https://xdaforums.com/t/additional-features-for-samsung-devices.4181105/#post-83781033">el0xren XDA</a>
+
+<hr>
+
 <a href="https://t.me/SamsungTweaks">Samsung Tweaks Telegram Channel</a>
 
 <br>

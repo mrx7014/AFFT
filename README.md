@@ -33,8 +33,6 @@
 
 <b>Download Termux App:</b> <a href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk">Here</a>
 
-<br>
-
 ### Then
 
 <b>Copy this command to install required packages</b>

@@ -68,7 +68,7 @@ echo -e "\033[31mNow make System R/W for termux\033[0m"
 
 sleep 1
 
-sudo mount -o rw,remount /
+sudo mount -o rw,remount / > /dev/null 2>&1
 
 echo ""
 
@@ -76,13 +76,13 @@ echo "Done"
 
 echo ""
 
-sleep 1
+sleep 2
 
 echo -e "\033[32mNow Enable Flagships Features\033[0m"
 
-sudo cp features/BuildProp/build.prop /system
-sudo cp features/FloatingFeatures/floating_feature.xml /system/etc
-sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata
+sudo cp features/BuildProp/build.prop /system > /dev/null 2>&1
+sudo cp features/FloatingFeatures/floating_feature.xml /system/etc > /dev/null 2>&1
+sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata > /dev/null 2>&1
 
 sleep 3
 
@@ -93,13 +93,18 @@ echo ""
 echo -e "\033[31mNow Will Add S23U Props Magisk Module to AFFT_FILES Folder, You should install it via Magisk and reboot system\033[0m"
 
 cp features/S23UProps/S23U_UP1A.231005.007.zip /sdcard/AFFT_FILES
-sleep 1
 
-echo -e "\033[31mNow everything is good, You should install S23U Props Magisk Module & OneUI Launcher And Another APPS From APPS Section then Reboot Device After You Finish, Good Luck \033[0m"
+sleep 5
 
-clear ; bash ATTF.sh
+echo -e "\033[31mNow everything is good, You should install S23U Props Magisk Module & OneUI Launcher And Another APPS From APPS Section then Reboot Device After You Finish, Wait until tool reopen again \033[0m"
 
-elif [ $user == 2 ]
+sleep 5
+
+clear ; bash AFFT.sh
+
+fi
+
+if [ $user == 2 ]
 then
 
 clear
@@ -118,6 +123,8 @@ echo ""
 
 read -p "Choose: " apps 
 
+fi
+
 if [ $apps == 1 ]
 then
 
@@ -135,6 +142,8 @@ echo ""
 
 read -p "Choose: " greenify
 
+fi
+
 if [ $greenify == 1 ]
 then
 
@@ -144,7 +153,7 @@ echo -e "\033[34mAPK will copy to a folder named (AFFT_FILES) Check this in your
 
 sleep 3
 
-mkdir /sdcard/AFFT_FILES ; cp APPS/Greenify/Greenify_com.oasisfeng.greenify_47500_vReBD.apk /sdcard/AFFT_FILES
+mkdir /sdcard/AFFT_FILES ; cp APPS/Greenify/Greenify_com.oasisfeng.greenify_47500_vReBD.apk /sdcard/AFFT_FILES > /dev/null 2>&1
 
 echo "Done!"
 
@@ -152,7 +161,9 @@ sleep 1
 
 bash AFFT.sh
 
-elif [ $greenify == 2 ]
+fi
+
+if [ $greenify == 2 ]
 then
 
 echo -e "\033[32mWill Back To Main Menu Now\033[32m"
@@ -163,7 +174,7 @@ clear ; bash AFFT.sh
 
 fi
 
-elif [ $apps == 2 ]
+if [ $apps == 2 ]
 then
 
 clear
@@ -179,6 +190,8 @@ echo ""
 
 read -p "Choose: " hail
 
+fi
+
 if [ $hail == 1 ]
 then
 
@@ -188,7 +201,7 @@ echo -e "\033[34mAPK will copy to a folder named (AFFT_FILES) Check this in your
 
 sleep 3
 
-cp APPS/Hail/Hail_com.aistra.hail_32_WOL2Y.apk /sdcard/AFFT_FILES
+cp APPS/Hail/Hail_com.aistra.hail_32_WOL2Y.apk /sdcard/AFFT_FILES > /dev/null 2>&1
 
 echo "Done!"
 
@@ -196,7 +209,9 @@ sleep 1
 
 bash AFFT.sh
 
-elif [ $hail == 2 ]
+fi
+
+if [ $hail == 2 ]
 then
 
 echo -e "\033[32mWill Back To Main Menu Now\033[32m"
@@ -205,7 +220,9 @@ sleep 3
 
 clear ; bash AFFT.sh
 
-if [ $apps == 1 ]
+fi
+
+if [ $apps == 3 ]
 then
 
 clear
@@ -225,6 +242,8 @@ echo ""
 
 read -p "Choose: " launcher
 
+fi
+
 if [ $launcher == 1 ]
 then
 
@@ -234,7 +253,7 @@ echo -e "\033[34mAPK will copy to a folder named (AFFT_FILES) Check this in your
 
 sleep 3
 
-cp APPS/OneUILauncher/TouchWizHome_2017.apk /sdcard/AFFT_FILES
+cp APPS/OneUILauncher/TouchWizHome_2017.apk /sdcard/AFFT_FILES > /dev/null 2>&1
 
 echo "Done!"
 
@@ -242,7 +261,9 @@ sleep 1
 
 bash AFFT.sh
 
-elif [ $launcher == 2 ]
+fi
+
+if [ $launcher == 2 ]
 then
 
 echo -e "\033[32mWill Back To Main Menu Now\033[32m"
@@ -251,14 +272,12 @@ sleep 3
 
 clear ; bash AFFT.sh
 
+fi
+
 if [ $user == 3 ]
 then
 
 clear ; exit
 
 fi
-fi
-fi
-fi
-fi
-fi
+

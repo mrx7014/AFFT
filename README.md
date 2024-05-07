@@ -1,13 +1,12 @@
 # AFFT - A23 Features Flags Tool
 
 <div align="center"><img src="banner.jpg">
+  
 **A Simple Tool To Enable Samsung Flagships Devices Features on Samsung A23**
 
 # V1.2.1 Released
 
 </div>
-
-<hr>
 
 ### ✨️Features:
 

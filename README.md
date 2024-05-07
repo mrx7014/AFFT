@@ -1,4 +1,4 @@
-# AFFT - A23 Features Flags Tool
+# AFFT - A23 Flagships Features Tool
 
 <div align="center"><img src="banner.jpg">
   

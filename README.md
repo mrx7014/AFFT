@@ -1,7 +1,11 @@
 # AFFT - A23 Features Flags Tool
 
-<p align="center"><img src="banner.jpg"></p>
-<p align="center"><b>A Simple Tool To Enable Samsung Flagships Devices Features on Samsung A23</b></p>
+<div align="center"><img src="banner.jpg">
+**A Simple Tool To Enable Samsung Flagships Devices Features on Samsung A23**
+
+# V1.2.1 Released
+
+</div>
 
 <hr>
 
@@ -20,6 +24,8 @@
 - Change Device Name to S23 Ultra
 - Disable Index Scroll
 - Multi Users
+- S23 Ultra Props
+
 
 📷Camera:
 - Zoom bar in Pro video
@@ -28,38 +34,45 @@
 - Improved HDR
 - Single-take video
 
+🤖Apps:
+- Greenify
+- Hail
+- OneUI 6.1 Launhcer
+
 
 ### First
 
-<b>Download Termux App:</b> <a href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk">Here</a>
+- **Your System Partition Should Be Read/Write, Read this to know how to do this** <a href="https://telegra.ph/How-to-convert-System-form-Read-Only-to-Read-Write-05-06">Here</a>
+
+- **Download Termux App:** <a href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk">**Here**</a>
 
 ### Then
 
-<b>Copy this command to install required packages</b>
+- Copy this command to install required packages
 ```sh
 pkg update ; pkg install git
 ```
 
 <br>
 
-<b>After install packages copy this command to clone the tool and run it</b>
+- After install packages copy this command to clone the tool and run it
 ```sh
 git clone https://github.com/mrx7014/AFFT ; cd AFFT ; chmod +x AFFT.sh ; ./AFFT.sh
 ```
 
 <br>
 
-<b>Now tool is working with you, Have Fun :)</b>
+**Now tool is working with you, Have Fun :)**
 
 <hr>
 
 # Credits:
-<a href="https://xdaforums.com/t/additional-features-for-samsung-devices.4181105/#post-83781033">el0xren XDA</a>
+<a href="https://xdaforums.com/t/additional-features-for-samsung-devices.4181105/#post-83781033">**el0xren XDA**</a>
 
 <br>
 
-<a href="https://t.me/SamsungTweaks">Samsung Tweaks Telegram Channel</a>
+<a href="https://t.me/SamsungTweaks">**Samsung Tweaks Telegram Channel**</a>
 
 <br>
 
-<a href="https://t.me/A235channel">A23 Telegram Channel</a>
+<a href="https://t.me/A235channel">**A23 Telegram Channel**</a>

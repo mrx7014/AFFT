@@ -4,7 +4,7 @@
   
 **A Simple Tool To Enable Samsung Flagships Devices Features on Samsung A23**
 
-# V2.0.0 Released
+# V2.1.0 Released
 
 </div>
 

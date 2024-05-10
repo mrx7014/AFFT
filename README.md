@@ -20,7 +20,6 @@
 - Dolby Atmos in Games
 - Dolby Atmos Game Profiles
 - Flagship Edge Ligthining+
-- Change Device Name to S23 Ultra
 - Disable Index Scroll
 - Multi Users
 - S23 Ultra Props

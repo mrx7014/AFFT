@@ -300,8 +300,6 @@ ro.netflix.bsp_rev=Q6115-31409-1
 ##########################
 # Tweaks Props
 ##########################
-ro.com.google.cdb.spa1=bsxasm1
-ro.bbt.support.circle2search=true
 ro.media.enc.jpeg.quality=100
 ro.media.dec.jpeg.memcap=8000000
 ro.media.enc.hprof.vid.bps=8000000

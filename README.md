@@ -36,8 +36,6 @@
 🤖Apps:
 - <a href="https://youtu.be/tyi2TwdMf0U?si=yx6GzxAvKivUqKRI">Greenify</a>
 - <a href="https://github.com/aistra0528/Hail">Hail</a>
-- OneUI 6.1 Launhcer
-
 
 ### First
 

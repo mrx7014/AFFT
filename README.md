@@ -4,7 +4,7 @@
   
 **A Simple Tool To Enable Samsung Flagships Devices Features on Samsung A23**
 
-# V2.1.0 Released
+# V2.2.0 Released
 
 </div>
 
@@ -23,14 +23,29 @@
 - Disable Index Scroll
 - Multi Users
 - S23 Ultra Props
+- Improve voice call quality
+- Improves audio and video recording quality
+- Better signal
+- Faster Boot
+- Better Responsiveness & Speed
+- Video Acceleration Enabled And HW debugging
+- Zygote Preforking
+- Enable 4K in YouTube_"FOR SOME REGUONS"
+- Discrease call delay
+- Save Battery Without Performance Drop
+- FPS Stabilizer
+- Audio Improvements
 
 
 📷Camera:
 - Zoom bar in Pro video
-- Blur effect in More
+- Slow Motion
 - Hyperlapse UHD
 - Improved HDR
 - Single-take video
+- Expert RAW
+- Pro Mode
+- Pro Video Mode
 
 🤖Apps:
 - <a href="https://youtu.be/tyi2TwdMf0U?si=yx6GzxAvKivUqKRI">Greenify</a>

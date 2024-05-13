@@ -18,7 +18,7 @@ X198XF9fLF98XF9ffFxfXyxffF98ICBcX19ffHxfX18vICAgCiAgICAgICAgICAgICAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgCg=="
 
 echo -e "\033[91mWelcome to Samsung A23 Flagships Features Tool\033[0m"
-
+echo -e "\033[93mV2.0.0\033[0m"
 echo -e "\033[32mCreated By MRX7014\033[0m"
 
 sleep 1
@@ -70,6 +70,10 @@ sleep 1
 
 sudo mount -o rw,remount / > /dev/null 2>&1
 
+sleep 5
+
+sudo mount -o rw,remount / > /dev/null 2>&1
+
 echo ""
 
 echo "Done"
@@ -96,7 +100,7 @@ cp features/S23UProps/S23U_UP1A.231005.007.zip /sdcard/AFFT_FILES
 
 sleep 5
 
-echo -e "\033[31mNow everything is good, You should install S23U Props Magisk Module & OneUI Launcher And Another APPS From APPS Section then Reboot Device After You Finish, Wait until tool reopen again \033[0m"
+echo -e "\033[93mNow everything is good, You should install S23U Props Magisk Module & OneUI Launcher And Another APPS From APPS Section then Reboot Device After You Finish, Wait until tool reopen again \033[0m"
 
 sleep 5
 

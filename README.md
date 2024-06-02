@@ -1,8 +1,8 @@
-# AFFT - A23 Flagships Features Tool
+# AFFT - A23 Flagship Features Tool
 
 <div align="center"><img src="banner.jpg">
   
-**A Simple Tool To Enable Samsung Flagships Devices Features on Samsung A23**
+**A Simple Tool To Enable Samsung Flagship Devices Features on Samsung A23**
 
 **Working on OneUI 6.1 Only**
 

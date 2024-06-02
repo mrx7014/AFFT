@@ -3,15 +3,15 @@
 <div align="center"><img src="banner.jpg">
   
 **A Simple Tool To Enable Samsung Flagships Devices Features on Samsung A23**
+**Working on OneUI 6.1 Only**
 
-# V2.2.0 Released
+# V3.0.0 Released
 
 </div>
 
 ### ✨️Features:
 
 ⚙️System:
-- OneUI 6.1 Launcher
 - High-End Animations
 - Performance Profile
 - Processing Speed
@@ -35,6 +35,9 @@
 - Save Battery Without Performance Drop
 - FPS Stabilizer
 - Audio Improvements
+- Samsung Ai
+- Screen Recorder
+- Call Recorder
 
 
 📷Camera:
@@ -73,7 +76,7 @@ git clone https://github.com/mrx7014/AFFT ; cd AFFT ; chmod +x AFFT.sh ; ./AFFT.
 
 <br>
 
-**Now tool is working with you, Have Fun :)**
+**Now tool is working, Have Fun :)**
 
 <hr>
 

@@ -4,8 +4,9 @@
   
 **A Simple Tool To Enable Samsung Flagships Devices Features on Samsung A23**
 
-> [!NOTE]
-> Working on OneUI 6.1 Only
+**Working on OneUI 6.1 Only**
+
+<br />
 
 # V3.0.0 Released
 

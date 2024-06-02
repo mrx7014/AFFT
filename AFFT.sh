@@ -18,8 +18,8 @@ X198XF9fLF98XF9ffFxfXyxffF98ICBcX19ffHxfX18vICAgCiAgICAgICAgICAgICAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgCg=="
 
 echo -e "\033[91mWelcome to Samsung A23 Flagships Features Tool\033[0m"
-echo -e "\033[93mV2.0.0\033[0m"
-echo -e "\033[32mCreated By MRX7014\033[0m"
+echo -e "\033[93mVersion: 3.0.0\033[0m"
+echo -e "\033[32mCreated By: MRX7014\033[0m"
 
 sleep 1
 
@@ -38,7 +38,7 @@ echo ""
 
 echo -e "\033[34mInstallation will start now\033[0m"
 
-sleep 1
+sleep 2
 
 echo ""
 
@@ -50,7 +50,7 @@ sleep 5
 
 echo ""
 
-echo "Done!"
+echo "Done"
 
 echo ""
 
@@ -84,9 +84,9 @@ sleep 2
 
 echo -e "\033[32mNow Enable Flagships Features\033[0m"
 
-sudo cp features/BuildProp/build.prop /system > /dev/null 2>&1
-sudo cp features/FloatingFeatures/floating_feature.xml /system/etc > /dev/null 2>&1
-sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata > /dev/null 2>&1
+sudo cp features/BuildProp/build.prop /system && sudo cp features/BuildProp/build.prop /system > /dev/null 2>&1
+sudo cp features/FloatingFeatures/floating_feature.xml /system/etc && sudo cp features/FloatingFeatures/floating_feature.xml /system/etc > /dev/null 2>&1
+sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata && sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata > /dev/null 2>&1
 
 sleep 3
 
@@ -96,9 +96,11 @@ echo ""
 
 echo -e "\033[31mNow Will Add S23U Props Magisk Module to AFFT_FILES Folder, You should install it via Magisk and reboot system\033[0m"
 
-cp features/S23UProps/S23U_UP1A.231005.007.zip /sdcard/AFFT_FILES
+mkdir /sdcard/AFFT_FILES && cp features/S23UProps/S23U_UP1A.231005.007.zip /sdcard/AFFT_FILES
 
 sleep 5
+
+echo ""
 
 echo -e "\033[93mNow everything is good, You should install S23U Props Magisk Module & OneUI Launcher And Another APPS From APPS Section then Reboot Device After You Finish, Wait until tool reopen again \033[0m"
 
@@ -284,4 +286,3 @@ then
 clear ; exit
 
 fi
-

@@ -123,8 +123,6 @@ ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAK"
 
 echo -e "\033[34m(1) Greenify\033[0m"
 echo -e "\033[34m(2) Hail\033[0m"
-echo -e "\033[34m(3) OneUI Launcher\033[0m"
-
 echo ""
 
 read -p "Choose: " apps 
@@ -161,9 +159,9 @@ sleep 3
 
 mkdir /sdcard/AFFT_FILES ; cp APPS/Greenify/Greenify_com.oasisfeng.greenify_47500_vReBD.apk /sdcard/AFFT_FILES > /dev/null 2>&1
 
-echo "Done!"
+echo "Done, Will Back To Main Menu"
 
-sleep 1
+sleep 3
 
 bash AFFT.sh
 
@@ -209,67 +207,15 @@ sleep 3
 
 cp APPS/Hail/Hail_com.aistra.hail_32_WOL2Y.apk /sdcard/AFFT_FILES > /dev/null 2>&1
 
-echo "Done!"
+echo "Done, Will Back To Main Menu"
 
-sleep 1
+sleep 3
 
 bash AFFT.sh
 
 fi
 
 if [ $hail == 2 ]
-then
-
-echo -e "\033[32mWill Back To Main Menu Now\033[32m"
-
-sleep 3
-
-clear ; bash AFFT.sh
-
-fi
-
-if [ $apps == 3 ]
-then
-
-clear
-
-base64 -d <<<"ICBfX19fICAgICAgICAgICBfXyAgX19fX19fICAgICAgICAgICAgCiAvIF9fIFxfX18gIF9fXyAv
-IC8gLyAvICBfLyAgICAgICAgICAgIAovIC9fLyAvIF8gXC8gLV8pIC9fLyAvLyAvICAgICAgICAg
-ICAgICAKXF9fX18vXy8vXy9cX18vXF9fX18vX19fLyAgX18gICAgICAgICAgCiAgLyAvICBfX18g
-X19fIF9fX19fICBfX19fLyAvICBfX18gX19fXwogLyAvX18vIF8gYC8gLy8gLyBfIFwvIF9fLyBf
-IFwvIC1fKSBfXy8KL19fX18vXF8sXy9cXyxfL18vL18vXF9fL18vL18vXF9fL18vICAgCiAgICAg
-ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA=="
-echo ""
-echo -e "\033[32mAbout: The Newest Version Of OneUI Launcher Form OneUI 6.1 With New Smooth Animations\033[0m"
-echo ""
-echo -e "\033[32m(1) ==> Install App\033[0m"
-echo -e "\033[32m(2) ==> Back To Main Menu\033[0m"
-echo ""
-
-read -p "Choose: " launcher
-
-fi
-
-if [ $launcher == 1 ]
-then
-
-echo ""
-
-echo -e "\033[34mAPK will copy to a folder named (AFFT_FILES) Check this in your file manager.\033[0m"
-
-sleep 3
-
-cp APPS/OneUILauncher/TouchWizHome_2017.apk /sdcard/AFFT_FILES > /dev/null 2>&1
-
-echo "Done!"
-
-sleep 1
-
-bash AFFT.sh
-
-fi
-
-if [ $launcher == 2 ]
 then
 
 echo -e "\033[32mWill Back To Main Menu Now\033[32m"

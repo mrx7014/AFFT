@@ -3,7 +3,10 @@
 <div align="center"><img src="banner.jpg">
   
 **A Simple Tool To Enable Samsung Flagships Devices Features on Samsung A23**
-**Working on OneUI 6.1 Only**
+
+> [!NOTE]
+> Working on OneUI 6.1 Only
+>
 
 # V3.0.0 Released
 
@@ -30,7 +33,7 @@
 - Better Responsiveness & Speed
 - Video Acceleration Enabled And HW debugging
 - Zygote Preforking
-- Enable 4K in YouTube_"FOR SOME REGUONS"
+- Enable 4K in YouTube "Working with Youtube Vanced"
 - Discrease call delay
 - Save Battery Without Performance Drop
 - FPS Stabilizer
@@ -56,7 +59,8 @@
 
 ### First
 
-- **Your System Partition Should Be Read/Write, Read this to know how to do this** <a href="https://telegra.ph/How-to-convert-System-form-Read-Only-to-Read-Write-05-06">Here</a>
+> [!IMPORTANT]
+> Your System Partition Should Be Read/Write, Read this to know how to do this** <a href="https://telegra.ph/How-to-convert-System-form-Read-Only-to-Read-Write-05-06">Here</a>
 
 - **Download Termux App:** <a href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk">**Here**</a>
 

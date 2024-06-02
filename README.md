@@ -6,7 +6,6 @@
 
 > [!NOTE]
 > Working on OneUI 6.1 Only
->
 
 # V3.0.0 Released
 
@@ -60,7 +59,7 @@
 ### First
 
 > [!IMPORTANT]
-> Your System Partition Should Be Read/Write, Read this to know how to do this** <a href="https://telegra.ph/How-to-convert-System-form-Read-Only-to-Read-Write-05-06">Here</a>
+> **Your System Partition Should Be Read/Write, Read this to know how to do this** <a href="https://telegra.ph/How-to-convert-System-form-Read-Only-to-Read-Write-05-06">Here</a>
 
 - **Download Termux App:** <a href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk">**Here**</a>
 

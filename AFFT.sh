@@ -10,7 +10,7 @@ ICAKL19fLyAgICAgXF9fXCB8X198ICAgICB8X198ICAgICAgICAgfF9ffCAgICAgCiAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 
 echo -e "\033[91mWelcome to AFFT Tool\033[0m"
-echo -e "\033[93mVersion: 3.0.1\033[0m"
+echo -e "\033[93mVersion: 3.1.1\033[0m"
 echo -e "\033[32mCreated By: MRX7014\033[0m"
 
 sleep 1
@@ -19,7 +19,8 @@ echo ""
 
 echo -e "\033[93m(1) => Install Flagships Features\033[0m"
 echo -e "\033[93m(2) => APPS\033[0m"
-echo -e "\033[93m(3) => Exit\033[0m"
+echo -e "\033[93m(3) => Debloater\033[0m"
+echo -e "\033[93m(4) => Exit\033[0m"
 echo ""
 read -p  "Choose: " user
 
@@ -219,6 +220,13 @@ clear ; bash AFFT.sh
 fi
 
 if [ $user == 3 ]
+then
+
+bash debloater.sh
+
+fi
+
+if [ $user == 4 ]
 then
 
 clear ; exit

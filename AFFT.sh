@@ -10,7 +10,7 @@ ICAKL19fLyAgICAgXF9fXCB8X198ICAgICB8X198ICAgICAgICAgfF9ffCAgICAgCiAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 
 echo -e "\033[91mWelcome to AFFT Tool\033[0m"
-echo -e "\033[93mVersion: 3.1.1\033[0m"
+echo -e "\033[93mVersion: 3.1.2\033[0m"
 echo -e "\033[32mCreated By: MRX7014\033[0m"
 
 sleep 1
@@ -61,11 +61,11 @@ echo -e "\033[31mNow make System R/W for termux\033[0m"
 
 sleep 1
 
-sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount /
 
 sleep 5
 
-sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount /
 
 echo ""
 
@@ -78,7 +78,13 @@ sleep 2
 echo -e "\033[32mNow Enable Flagships Features\033[0m"
 
 sudo cp features/BuildProp/build.prop /system && sudo cp features/BuildProp/build.prop /system > /dev/null 2>&1
+
+sleep 1
+
 sudo cp features/FloatingFeatures/floating_feature.xml /system/etc && sudo cp features/FloatingFeatures/floating_feature.xml /system/etc > /dev/null 2>&1
+
+sleep 1
+
 sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata && sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata > /dev/null 2>&1
 
 sleep 3

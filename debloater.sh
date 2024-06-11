@@ -191,7 +191,7 @@ fi
 
 echo ""
 
-echo "Uninstall AR Zone (y/n)?"
+echo "Uninstall Android Auto (y/n)?"
 
 read -p "Choose: " user
 
@@ -264,6 +264,157 @@ fi
 
 echo ""
 
+echo "Uninstall Bookmark Provider (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.android.bookmarkprovider
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Knox Mops (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.knox.mpos
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Smart Switch Assistant (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.smartswitchassistant
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Data Restore Tool (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.google.android.apps.restore
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Device Health Services (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.google.android.apps.turbo
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Dictionary (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.diotek.sec.lookup.dictionary
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+
+echo ""
+
 echo "Uninstall Emergency sharing (y/n)?"
 
 read -p "Choose: " user
@@ -298,6 +449,56 @@ if [ $user == y ]
 then
 
 sudo pm uninstall -k --user 0 com.samsung.android.emergency
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Find My Mobile (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.fmm
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Galaxy Service Setup (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.dbsc
 
 sleep 2
 
@@ -389,6 +590,81 @@ fi
 
 echo ""
 
+echo "Uninstall Google Location History (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.google.android.gms.location.history
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Google One Time Init (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.google.android.onetimeinitializer
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Google Partner Setup (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.google.android.partnersetup
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
 echo "Uninstall Group Sharing (y/n)?"
 
 read -p "Choose: " user
@@ -423,6 +699,231 @@ if [ $user == y ]
 then
 
 sudo pm uninstall -k --user 0 com.google.android.healthconnect.controller
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall KLMS Agent (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.klmsagent
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall KmxService (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.kmxservice
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Knox Analytics Uploader (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.knox.analytics.uploader
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Knox Enrollment Service (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.sec.enterprise.knox.cloudmdm.smdms
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall KnoxCore (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.knox.containercore
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall KnoxNetworkFilter (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.knox.app.networkfilter
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall KnoxPushManager (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.knox.pushmanager
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall KnoxVpnPacProcessor (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.knox.vpn.proxyhandler
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall KPECore (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.samsung.android.knox.kpecore
 
 sleep 2
 
@@ -523,6 +1024,31 @@ if [ $user == y ]
 then
 
 sudo pm uninstall -k --user 0 com.google.android.apps.maps
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Market Feedback Agent (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.google.android.feedback
 
 sleep 2
 
@@ -773,6 +1299,81 @@ if [ $user == y ]
 then
 
 sudo pm uninstall -k --user 0 com.samsung.android.app.parentalcare
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Photo Screensavers (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.android.dreams.phototable
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Print Spooler (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.android.printspooler
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall Private Compute Services (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.google.android.as.oss
 
 sleep 2
 
@@ -1464,6 +2065,56 @@ echo "Skip"
 fi
 
 echo ""
+
+echo "Uninstall Tags (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.android.apps.tag
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+echo ""
+
+echo "Uninstall User guide (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.sec.android.widgetapp.webmanual
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+echo ""
+
+fi
 
 echo "Everything is done now"
 

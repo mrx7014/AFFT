@@ -191,7 +191,7 @@ fi
 
 echo ""
 
-echo "Uninstall Android Auto (y/n)?"
+echo "Uninstall AR Zone (y/n)?"
 
 read -p "Choose: " user
 
@@ -200,6 +200,30 @@ if [ $user == y ]
 then
 
 sudo pm uninstall -k --user 0 com.samsung.android.arzone
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
+
+echo "Uninstall Mobile Services Manager (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.dti.samsung
 
 sleep 2
 

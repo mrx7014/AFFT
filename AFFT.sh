@@ -10,21 +10,58 @@ ICAKL19fLyAgICAgXF9fXCB8X198ICAgICB8X198ICAgICAgICAgfF9ffCAgICAgCiAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 
 echo -e "\033[91mWelcome to AFFT Tool\033[0m"
-echo -e "\033[93mVersion: 3.1.2\033[0m"
+echo -e "\033[93mVersion: 4.0.0\033[0m"
 echo -e "\033[32mCreated By: MRX7014\033[0m"
 
 sleep 1
 
 echo ""
 
-echo -e "\033[93m(1) => Install Flagships Features\033[0m"
+echo -e "\033[93m(1) => Features\033[0m"
 echo -e "\033[93m(2) => APPS\033[0m"
 echo -e "\033[93m(3) => Debloater\033[0m"
 echo -e "\033[93m(4) => Exit\033[0m"
 echo ""
 read -p  "Choose: " user
 
-if [ $user == 1 ]
+if [ $user == 1]
+then
+
+base64 -d <<<"Cl9fX19fXyBfICAgICAgICAgICAgICAgICBfICAgICBfICAgICAgICAgICAKfCAgX19ffCB8ICAg
+ICAgICAgICAgICAgfCB8ICAgKF8pICAgICAgICAgIAp8IHxfICB8IHwgX18gXyAgX18gXyBfX198
+IHxfXyAgXyBfIF9fICBfX18gCnwgIF98IHwgfC8gX2AgfC8gX2AgLyBfX3wgJ18gXHwgfCAnXyBc
+LyBfX3wKfCB8ICAgfCB8IChffCB8IChffCBcX18gXCB8IHwgfCB8IHxfKSBcX18gXApcX3wgICB8
+X3xcX18sX3xcX18sIHxfX18vX3wgfF98X3wgLl9fL3xfX18vCiAgICAgICAgICAgICAgICBfXy8g
+fCAgICAgICAgICAgfCB8ICAgICAgICAKICAgICAgICAgICAgICAgfF9fXy8gICAgICAgICAgICB8
+X3wgICAgICAgIApfX19fX18gICAgICAgICBfICAgICAgICAgICAgICAgICAgICAgICAgICAgCnwg
+IF9fX3wgICAgICAgfCB8ICAgICAgICAgICAgICAgICAgICAgICAgICAKfCB8XyBfX18gIF9fIF98
+IHxfIF8gICBfIF8gX18gX19fICBfX18gICAgIAp8ICBfLyBfIFwvIF9gIHwgX198IHwgfCB8ICdf
+Xy8gXyBcLyBfX3wgICAgCnwgfHwgIF9fLyAoX3wgfCB8X3wgfF98IHwgfCB8ICBfXy9cX18gXCAg
+ICAKXF98IFxfX198XF9fLF98XF9ffFxfXyxffF98ICBcX19ffHxfX18vICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKCl9fX19fXyBfICAgICAgICAgICAgICAgICBfICAgICBfICAgICAgICAgICAKfCAgX19ffCB8ICAg
+ICAgICAgICAgICAgfCB8ICAgKF8pICAgICAgICAgIAp8IHxfICB8IHwgX18gXyAgX18gXyBfX198
+IHxfXyAgXyBfIF9fICBfX18gCnwgIF98IHwgfC8gX2AgfC8gX2AgLyBfX3wgJ18gXHwgfCAnXyBc
+LyBfX3wKfCB8ICAgfCB8IChffCB8IChffCBcX18gXCB8IHwgfCB8IHxfKSBcX18gXApcX3wgICB8
+X3xcX18sX3xcX18sIHxfX18vX3wgfF98X3wgLl9fL3xfX18vCiAgICAgICAgICAgICAgICBfXy8g
+fCAgICAgICAgICAgfCB8ICAgICAgICAKICAgICAgICAgICAgICAgfF9fXy8gICAgICAgICAgICB8
+X3wgICAgICAgIApfX19fX18gICAgICAgICBfICAgICAgICAgICAgICAgICAgICAgICAgICAgCnwg
+IF9fX3wgICAgICAgfCB8ICAgICAgICAgICAgICAgICAgICAgICAgICAKfCB8XyBfX18gIF9fIF98
+IHxfIF8gICBfIF8gX18gX19fICBfX18gICAgIAp8ICBfLyBfIFwvIF9gIHwgX198IHwgfCB8ICdf
+Xy8gXyBcLyBfX3wgICAgCnwgfHwgIF9fLyAoX3wgfCB8X3wgfF98IHwgfCB8ICBfXy9cX18gXCAg
+ICAKXF98IFxfX198XF9fLF98XF9ffFxfXyxffF98ICBcX19ffHxfX18vICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAK"
+
+echo ""
+
+echo -e "\033[93m(1) => Flagships Features\033[0m"
+echo -e "\033[93m(2) => AI Features\033[0m"
+echo -e "\033[93m(3) => Back To Main Menu\033[0m"
+echo ""
+read -p  "Choose: " user_features
+
+if [ $user_features == 1 ]
 then
 
 echo ""
@@ -112,6 +149,37 @@ echo -e "\033[93mNow everything is good, You should install S23U Props Magisk Mo
 sleep 5
 
 clear ; bash AFFT.sh
+
+fi
+
+if [ $user_features == 2 ]
+then
+
+echo ""
+
+
+echo""
+
+read -p "Choose: " user_ai_features
+
+fi
+
+if [ $user_ai_features == 1 ]
+then
+
+echo ""
+
+echo -e "\033[34mWill Copy AI Wallpaper App On AFFT_FILES On SdCard, Check it\033[0m"
+
+sleep 2
+
+mkdir /sdcard/AFFT_FILES cp Apps/AI-Wallpaper/*.apk /sdcard/AFFT_FILES > /dev/null 2>&1
+
+sleep 3
+
+echo ""
+
+echo "Done"
 
 fi
 

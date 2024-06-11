@@ -61,11 +61,11 @@ echo -e "\033[31mNow make System R/W for termux\033[0m"
 
 sleep 1
 
-sudo mount -o rw,remount /
+sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
 
 sleep 5
 
-sudo mount -o rw,remount /
+sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
 
 echo ""
 
@@ -92,6 +92,12 @@ sleep 3
 echo "Done"
 
 echo ""
+
+echo -e "\033[93mIf you facing error 'System Is Read Only' Just download Root Explorer App and go to system and mount R/W and run the tool again\033[0m"
+
+echo ""
+
+sleep 5
 
 echo -e "\033[31mNow Will Add S23U Props Magisk Module to AFFT_FILES Folder, You should install it via Magisk and reboot system\033[0m"
 

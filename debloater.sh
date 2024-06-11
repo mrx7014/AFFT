@@ -40,6 +40,30 @@ echo "Skip"
 
 fi
 
+
+echo "Uninstall Samsung Push Service (y/n)?"
+
+read -p "Choose: " user
+
+if [ $user == y ]
+
+then
+
+sudo pm uninstall -k --user 0 com.sec.spp.push
+
+sleep 2
+
+echo "Done"
+
+fi
+
+if [ $user == n ]
+then
+
+echo "Skip"
+
+fi
+
 echo ""
 
 echo "Uninstall App Update (y/n)?"

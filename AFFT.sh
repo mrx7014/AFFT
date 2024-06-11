@@ -61,6 +61,8 @@ echo -e "\033[93m(3) => Back To Main Menu\033[0m"
 echo ""
 read -p  "Choose: " userfeatures
 
+fi
+
 if [ $userfeatures == 1 ]
 then
 

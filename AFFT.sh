@@ -24,7 +24,7 @@ echo -e "\033[93m(4) => Exit\033[0m"
 echo ""
 read -p  "Choose: " user
 
-if [ $user == 1]
+if [ $user == 1 ]
 then
 
 base64 -d <<<"Cl9fX19fXyBfICAgICAgICAgICAgICAgICBfICAgICBfICAgICAgICAgICAKfCAgX19ffCB8ICAg
@@ -59,9 +59,9 @@ echo -e "\033[93m(1) => Flagships Features\033[0m"
 echo -e "\033[93m(2) => AI Features\033[0m"
 echo -e "\033[93m(3) => Back To Main Menu\033[0m"
 echo ""
-read -p  "Choose: " user_features
+read -p  "Choose: " userfeatures
 
-if [ $user_features == 1 ]
+if [ $userfeatures == 1 ]
 then
 
 echo ""
@@ -152,7 +152,7 @@ clear ; bash AFFT.sh
 
 fi
 
-if [ $user_features == 2 ]
+if [ $userfeatures == 2 ]
 then
 
 echo ""
@@ -160,11 +160,11 @@ echo ""
 
 echo""
 
-read -p "Choose: " user_ai_features
+read -p "Choose: " useraifeatures
 
 fi
 
-if [ $user_ai_features == 1 ]
+if [ $useraifeatures == 1 ]
 then
 
 echo ""

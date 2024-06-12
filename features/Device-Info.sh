@@ -26,6 +26,8 @@ echo "Green - (GRE1) install / (GRE2) Preview"
 echo "Orange - (O1) install / (O2) Preview"
 echo "Violet - (V1) install / (V2) Preview"
 echo ""
+echo "(0) Back to main menu"
+echo ""
 read -p "Choose: " deviceinfo
 
 if [ $deviceinfo == B1 ]
@@ -235,5 +237,12 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 sleep 2
 
 bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == 0 ]
+then
+
+bash AFFT.sh
 
 fi

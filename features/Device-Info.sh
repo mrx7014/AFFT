@@ -51,4 +51,10 @@ echo "Will open a web browser to preview color that you choose"
 
 sleep 2
 
-xdg-open
+xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Black.png
+
+sleep 2
+
+bash features/Device-Info.sh
+
+fi

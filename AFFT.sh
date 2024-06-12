@@ -148,7 +148,7 @@ fi
 if [ $userfeatures == 2 ]
 then
 
-claer
+clear
 
 base64 -d <<<"CiAgIF9fX19fICAgICAgIF8gICAgICAgICAgICAgICAgICAKICAvIF9fX198ICAgICB8IHwgICAg
 ICAgICAgICAgICAgIAogfCB8ICBfXyAgX18gX3wgfCBfXyBfX18gIF9fXyAgIF8gCiB8IHwgfF8g
@@ -167,7 +167,7 @@ echo -e "\033[31mChoose App You Want To Install\033[0m"
 
 echo""
 
-echo -e "\033[31mAI Wallpaper\033[0m"
+echo -e "\033[31m(1) AI Wallpaper\033[0m"
 
 read -p "Choose: " useraifeatures
 
@@ -189,6 +189,10 @@ sleep 3
 echo ""
 
 echo "Done"
+
+sleep 1
+
+bash AFFT.sh
 
 fi
 

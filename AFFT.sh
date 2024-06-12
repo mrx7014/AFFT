@@ -120,20 +120,38 @@ sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata && sudo cp
 sleep 3
 
 echo "Done"
-
 echo ""
 
 echo -e "\033[93mIf you facing error 'System Is Read Only' Just download Root Explorer App and go to system and mount R/W and run the tool again\033[0m"
-
 echo ""
 
 sleep 5
+
+echo -e "\033[32mReduce Animations For Better Performance\033[0m"
+echo""
+
+sudo settings put global window_animation_scale 0.7
+
+sleep 1
+
+settings put global transition_animation_scale 0.7
+
+sleep 1
+
+settings put global animator_duration_scale 0.7
+
+sleep 1
+
+echo "Done"
+echo ""
+
+sleep 2
 
 echo -e "\033[31mNow Will Add S23U Props Magisk Module to AFFT_FILES Folder, You should install it via Magisk and reboot system\033[0m"
 
 mkdir /sdcard/AFFT_FILES && cp features/S23UProps/S23U_UP1A.231005.007.zip /sdcard/AFFT_FILES
 
-sleep 5
+sleep 3
 
 echo ""
 
@@ -141,7 +159,7 @@ echo -e "\033[93mNow everything is good, You should install S23U Props Magisk Mo
 
 sleep 5
 
-clear ; bash AFFT.sh
+bash AFFT.sh
 
 fi
 

@@ -48,7 +48,7 @@ echo ""
 echo -e "\033[93m(1) => Flagships Features\033[0m"
 echo -e "\033[93m(2) => Galaxy AI\033[0m"
 echo -e "\033[93m(3) => S24 Ultra Device Info\033[0m"
-echo -e "\033[93m(4) => Back To Main Menu\033[0m"
+echo -e "\033[93m(0) => Back To Main Menu\033[0m"
 echo ""
 read -p  "Choose: " userfeatures
 
@@ -231,7 +231,7 @@ bash features/Device-Info.sh
 
 fi
 
-if [ $userfeatures == 4 ]
+if [ $userfeatures == 0 ]
 then
 
 bash AFFT.sh
@@ -251,6 +251,7 @@ ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAK"
 
 echo -e "\033[34m(1) Greenify\033[0m"
 echo -e "\033[34m(2) Hail\033[0m"
+echo -e "\033[31m(0) Back To Main Menu\033[0m"
 echo ""
 
 read -p "Choose: " apps 
@@ -351,6 +352,13 @@ echo -e "\033[32mWill Back To Main Menu Now\033[32m"
 sleep 3
 
 clear ; bash AFFT.sh
+
+fi
+
+if [ $apps == 0 ]
+then
+
+bash AFFT.sh
 
 fi
 

@@ -234,7 +234,7 @@ fi
 if [ $user == 3 ]
 then
 
-bash debloater.sh
+bash features/Debloater.sh
 
 fi
 

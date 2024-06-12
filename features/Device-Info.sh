@@ -33,8 +33,7 @@ read -p "Choose: " deviceinfo
 if [ $deviceinfo == B1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Black.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Black.png DeviceImage.png > /dev/null 2>&1
-
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Black.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Black.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 sleep 1 
 
 echo "Done"
@@ -63,7 +62,7 @@ fi
 if [ $deviceinfo == BL1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Blue.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Blue.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Blue.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Blue.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -93,7 +92,7 @@ fi
 if [ $deviceinfo == G1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Gold.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Gold.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Gold.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Gold.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -123,7 +122,7 @@ fi
 if [ $deviceinfo == GR1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Gray.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Gray.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Gray.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Gray.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -153,7 +152,7 @@ fi
 if [ $deviceinfo == GRE1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Green.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Green.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Green.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Green.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -183,7 +182,7 @@ fi
 if [ $deviceinfo == O1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Orange.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Orange.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Orange.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Orange.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -213,7 +212,7 @@ fi
 if [ $deviceinfo == V1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files/DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 

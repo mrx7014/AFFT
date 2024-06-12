@@ -189,6 +189,8 @@ echo -e "\033[31m(1) AI Wallpaper\033[0m"
 
 echo ""
 
+echo -e "\033[31m(0) Back to Main Menu\033[0m"
+
 read -p "Choose: " useraifeatures
 
 fi
@@ -211,6 +213,12 @@ echo ""
 echo "Done"
 
 sleep 1
+
+bash AFFT.sh
+
+fi
+
+if [ $userfeatureai == 0 ]
 
 bash AFFT.sh
 

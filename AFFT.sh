@@ -91,11 +91,11 @@ echo -e "\033[31mNow make System R/W for termux\033[0m"
 
 sleep 1
 
-sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount / && sudo mount -o rw,remount /
 
 sleep 5
 
-sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount / && sudo mount -o rw,remount /
 
 echo ""
 
@@ -165,9 +165,11 @@ sleep 1
 
 echo -e "\033[31mChoose App You Want To Install\033[0m"
 
-echo""
+echo ""
 
 echo -e "\033[31m(1) AI Wallpaper\033[0m"
+
+echo ""
 
 read -p "Choose: " useraifeatures
 

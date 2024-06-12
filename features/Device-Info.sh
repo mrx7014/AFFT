@@ -13,9 +13,7 @@ ICAgICAgICAgCi9fX18vXy9fL18vXy8gIFxfX19fLyAgICAgICAgICAgIAogICAvICBfL19fXyBf
 X18gIF9fX18gX19fX18gX19fXyAKICAgLyAvLyBfXyBgX18gXC8gX18gYC8gX18gYC8gXyBcCiBf
 LyAvLyAvIC8gLyAvIC8gL18vIC8gL18vIC8gIF9fLwovX19fL18vIC9fLyAvXy9cX18sXy9cX18s
 IC9cX19fLyAKICAgICAgICAgICAgICAgICAgICAvX19fXy8gICAgICAgCg=="
-
-sleep 1
-
+echo ""
 echo -e "\033[91mChange Device Info Image To S24 Ultra Image With All S24U Colors\033[0m"
 echo""
 echo "Enter the number of the color you want to install or preview it like B1 or V2, etc...."
@@ -27,12 +25,13 @@ echo "Gray - (GR1) install / (GR2) Preview"
 echo "Green - (GRE1) install / (GRE2) Preview"
 echo "Orange - (O1) install / (O2) Preview"
 echo "Violet - (V1) install / (V2) Preview"
+echo ""
 read -p "Choose: " deviceinfo
 
 if [ $deviceinfo == B1 ]
 then
 
-cp features/Device-Info-Photos/DeviceImageS24U-Black.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Black.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Black.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Black.png DeviceImage.png > /dev/null 2>&1
 
 sleep 1 
 
@@ -62,7 +61,7 @@ fi
 if [ $deviceinfo == BL1 ]
 then
 
-cp features/Device-Info-Photos/DeviceImageS24U-Blue.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Blue.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Blue.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Blue.png DeviceImage.png > /dev/null 2>&1
 
 sleep 1 
 
@@ -92,7 +91,7 @@ fi
 if [ $deviceinfo == G1 ]
 then
 
-cp features/Device-Info-Photos/DeviceImageS24U-Gold.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Gold.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Gold.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Gold.png DeviceImage.png > /dev/null 2>&1
 
 sleep 1 
 
@@ -122,7 +121,7 @@ fi
 if [ $deviceinfo == GR1 ]
 then
 
-cp features/Device-Info-Photos/DeviceImageS24U-Gray.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Gray.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Gray.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Gray.png DeviceImage.png > /dev/null 2>&1
 
 sleep 1 
 
@@ -152,7 +151,7 @@ fi
 if [ $deviceinfo == GRE1 ]
 then
 
-cp features/Device-Info-Photos/DeviceImageS24U-Green.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Green.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Green.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Green.png DeviceImage.png > /dev/null 2>&1
 
 sleep 1 
 
@@ -182,7 +181,7 @@ fi
 if [ $deviceinfo == O1 ]
 then
 
-cp features/Device-Info-Photos/DeviceImageS24U-Orange.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Orange.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Orange.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Orange.png DeviceImage.png > /dev/null 2>&1
 
 sleep 1 
 
@@ -212,7 +211,7 @@ fi
 if [ $deviceinfo == V1 ]
 then
 
-cp features/Device-Info-Photos/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Violet.png DeviceImage.png > /dev/null 2>&1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Violet.png DeviceImage.png > /dev/null 2>&1
 
 sleep 1 
 

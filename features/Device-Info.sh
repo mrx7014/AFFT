@@ -24,7 +24,7 @@ echo "Black - (B1) install / (B2) Preview"
 echo "Blue - (BL1) install / (BL2) Preview"
 echo "Gold - (G1) install / (G2) Preview"
 echo "Gray - (GR1) install / (GR2) Preview"
-echo "Green - (GR1) install / (GR2) Preview"
+echo "Green - (GRE1) install / (GRE2) Preview"
 echo "Orange - (O1) install / (O2) Preview"
 echo "Violet - (V1) install / (V2) Preview"
 read -p "Choose: " deviceinfo
@@ -44,7 +44,7 @@ bash features/Device-Info.sh
 
 fi
 
-if [ $deviceinfo == 2 ]
+if [ $deviceinfo == B2 ]
 then
 
 echo "Will open a web browser to preview color that you choose"
@@ -52,6 +52,186 @@ echo "Will open a web browser to preview color that you choose"
 sleep 2
 
 xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Black.png
+
+sleep 2
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == BL1 ]
+then
+
+cp features/Device-Info-Photos/DeviceImageS24U-Blue.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Blue.png DeviceImage.png > /dev/null 2>&1
+
+sleep 1 
+
+echo "Done"
+
+sleep 1
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == BL2 ]
+then
+
+echo "Will open a web browser to preview color that you choose"
+
+sleep 2
+
+xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Blue.png
+
+sleep 2
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == G1 ]
+then
+
+cp features/Device-Info-Photos/DeviceImageS24U-Gold.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Gold.png DeviceImage.png > /dev/null 2>&1
+
+sleep 1 
+
+echo "Done"
+
+sleep 1
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == G2 ]
+then
+
+echo "Will open a web browser to preview color that you choose"
+
+sleep 2
+
+xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Gold.png
+
+sleep 2
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == GR1 ]
+then
+
+cp features/Device-Info-Photos/DeviceImageS24U-Gray.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Gray.png DeviceImage.png > /dev/null 2>&1
+
+sleep 1 
+
+echo "Done"
+
+sleep 1
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == GR2 ]
+then
+
+echo "Will open a web browser to preview color that you choose"
+
+sleep 2
+
+xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Gray.png
+
+sleep 2
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == GRE1 ]
+then
+
+cp features/Device-Info-Photos/DeviceImageS24U-Green.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Green.png DeviceImage.png > /dev/null 2>&1
+
+sleep 1 
+
+echo "Done"
+
+sleep 1
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == GRE2 ]
+then
+
+echo "Will open a web browser to preview color that you choose"
+
+sleep 2
+
+xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Green.png
+
+sleep 2
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == O1 ]
+then
+
+cp features/Device-Info-Photos/DeviceImageS24U-Orange.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Orange.png DeviceImage.png > /dev/null 2>&1
+
+sleep 1 
+
+echo "Done"
+
+sleep 1
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == O2 ]
+then
+
+echo "Will open a web browser to preview color that you choose"
+
+sleep 2
+
+xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Orange.png
+
+sleep 2
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == V1 ]
+then
+
+cp features/Device-Info-Photos/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files ; sudo rm -r DeviceImage.png ; mv DeviceImageS24U-Violet.png DeviceImage.png > /dev/null 2>&1
+
+sleep 1 
+
+echo "Done"
+
+sleep 1
+
+bash features/Device-Info.sh
+
+fi
+
+if [ $deviceinfo == V2 ]
+then
+
+echo "Will open a web browser to preview color that you choose"
+
+sleep 2
+
+xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Violet.png
 
 sleep 2
 

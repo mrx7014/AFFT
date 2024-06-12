@@ -27,6 +27,8 @@ read -p  "Choose: " user
 if [ $user == 1 ]
 then
 
+clear
+
 base64 -d <<<"CiAgX19fX19fIF8gICAgICAgICAgICAgICAgIF8gICAgIF8gICAgICAgICAgIAogfCAgX19fX3wg
 fCAgICAgICAgICAgICAgIHwgfCAgIChfKSAgICAgICAgICAKIHwgfF9fICB8IHwgX18gXyAgX18g
 XyBfX198IHxfXyAgXyBfIF9fICBfX18gCiB8ICBfX3wgfCB8LyBfYCB8LyBfYCAvIF9ffCAnXyBc
@@ -44,7 +46,7 @@ ICAgICAgCg=="
 echo ""
 
 echo -e "\033[93m(1) => Flagships Features\033[0m"
-echo -e "\033[93m(2) => AI Features\033[0m"
+echo -e "\033[93m(2) => Galaxy AI\033[0m"
 echo -e "\033[93m(3) => S24 Ultra Device Info\033[0m"
 echo -e "\033[93m(4) => Back To Main Menu\033[0m"
 echo ""
@@ -146,10 +148,26 @@ fi
 if [ $userfeatures == 2 ]
 then
 
-echo ""
+claer
 
+base64 -d <<<"CiAgIF9fX19fICAgICAgIF8gICAgICAgICAgICAgICAgICAKICAvIF9fX198ICAgICB8IHwgICAg
+ICAgICAgICAgICAgIAogfCB8ICBfXyAgX18gX3wgfCBfXyBfX18gIF9fXyAgIF8gCiB8IHwgfF8g
+fC8gX2AgfCB8LyBfYCBcIFwvIC8gfCB8IHwKIHwgfF9ffCB8IChffCB8IHwgKF98IHw+ICA8fCB8
+X3wgfAogIFxfX19fX3xcX18sX3xffFxfXyxfL18vXF9cXF9fLCB8CiAgICAgICAgICAgX19fX18g
+ICAgICAgICAgICAgX18vIHwKICAgICAvXCAgIHxfICAgX3wgICAgICAgICAgIHxfX18vIAogICAg
+LyAgXCAgICB8IHwgICAgICAgICAgICAgICAgICAgCiAgIC8gL1wgXCAgIHwgfCAgICAgICAgICAg
+ICAgICAgICAKICAvIF9fX18gXCBffCB8XyAgICAgICAgICAgICAgICAgIAogL18vICAgIFxfXF9f
+X19ffCAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
+echo""
+
+sleep 1
+
+echo -e "\033[31mChoose App You Want To Install\033[0m"
 
 echo""
+
+echo -e "\033[31mAI Wallpaper\033[0m"
 
 read -p "Choose: " useraifeatures
 

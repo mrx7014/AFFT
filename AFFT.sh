@@ -103,7 +103,7 @@ echo -e "\033[31mNow Will Add S23U Props Magisk Module to AFFT_FILES Folder, You
 
 mkdir /sdcard/AFFT_FILES && cp features/S23UProps/S23U_UP1A.231005.007.zip /sdcard/AFFT_FILES
 
-sleep 5
+sleep 3
 
 echo ""
 

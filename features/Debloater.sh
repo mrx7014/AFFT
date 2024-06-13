@@ -16,6 +16,8 @@ echo "Debloat OneUI For Best Performance"
 sleep 2
 
 echo ""
+echo "(0) Back To Main Menu"
+echo ""
 
 echo "Uninstall Android Auto (y/n)?"
 
@@ -2175,3 +2177,8 @@ echo "Will back to main menu now"
 sleep 2
 
 bash AFFT.sh
+
+if [ $user == 0 ]
+then
+bash AFFT.sh
+fi

@@ -190,6 +190,7 @@ echo -e "\033[31m(1) AI Wallpaper\033[0m"
 echo ""
 
 echo -e "\033[31m(0) Back to Main Menu\033[0m"
+echo""
 
 read -p "Choose: " useraifeatures
 

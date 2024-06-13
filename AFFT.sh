@@ -218,12 +218,6 @@ bash AFFT.sh
 
 fi
 
-if [ $userfeatureai == 0 ]
-
-bash AFFT.sh
-
-fi
-
 if [ $userfeatures == 3 ]
 then
 

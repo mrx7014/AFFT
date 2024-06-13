@@ -16,10 +16,26 @@ echo "Debloat OneUI For Best Performance"
 sleep 2
 
 echo ""
+echo "[*] Back To Main Menu (y/n)"
+echo ""
+
+read -p "Choose: " mainmenu
+
+if [ $mainmenu == y ]
+then
+
+bash AFFT.sh
+
+fi
+
+if [ $mainmenu == n ]
+then
 
 echo "Uninstall Android Auto (y/n)?"
 
 read -p "Choose: " user
+
+fi
 
 if [ $user == y ]
 
@@ -2175,3 +2191,8 @@ echo "Will back to main menu now"
 sleep 2
 
 bash AFFT.sh
+
+if [ $user == 0 ]
+then
+bash AFFT.sh
+fi

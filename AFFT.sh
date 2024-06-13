@@ -10,7 +10,7 @@ ICAKL19fLyAgICAgXF9fXCB8X198ICAgICB8X198ICAgICAgICAgfF9ffCAgICAgCiAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 
 echo -e "\033[91mWelcome to AFFT Tool\033[0m"
-echo -e "\033[93mVersion: 4.0.0 - Stable\033[0m"
+echo -e "\033[93mVersion: 4.0.1 - Stable\033[0m"
 echo -e "\033[32mCreated By: MRX7014\033[0m"
 
 sleep 1
@@ -190,6 +190,7 @@ echo -e "\033[31m(1) AI Wallpaper\033[0m"
 echo ""
 
 echo -e "\033[31m(0) Back to Main Menu\033[0m"
+echo""
 
 read -p "Choose: " useraifeatures
 
@@ -218,7 +219,8 @@ bash AFFT.sh
 
 fi
 
-if [ $userfeatureai == 0 ]
+if [ $useraifeatures == 0 ]
+then
 
 bash AFFT.sh
 

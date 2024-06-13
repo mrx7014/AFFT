@@ -13,11 +13,14 @@ ICAgICAgICAgCi9fX18vXy9fL18vXy8gIFxfX19fLyAgICAgICAgICAgIAogICAvICBfL19fXyBf
 X18gIF9fX18gX19fX18gX19fXyAKICAgLyAvLyBfXyBgX18gXC8gX18gYC8gX18gYC8gXyBcCiBf
 LyAvLyAvIC8gLyAvIC8gL18vIC8gL18vIC8gIF9fLwovX19fL18vIC9fLyAvXy9cX18sXy9cX18s
 IC9cX19fLyAKICAgICAgICAgICAgICAgICAgICAvX19fXy8gICAgICAgCg=="
+sleep 1
 echo ""
 echo -e "\033[91mChange Device Info Image To S24 Ultra Image With All S24U Colors\033[0m"
 echo""
+sleep 1
 echo "Enter the number of the color you want to install or preview it like B1 or V2, etc...."
 echo""
+sleep 1
 echo "Black - (B1) install / (B2) Preview"
 echo "Blue - (BL1) install / (BL2) Preview"
 echo "Gold - (G1) install / (G2) Preview"

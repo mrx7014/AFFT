@@ -218,7 +218,7 @@ bash AFFT.sh
 
 fi
 
-if [ $userfeatures == 0 ]
+if [ $useraifeatures == 0 ]
 then
 
 bash AFFT.sh
@@ -229,6 +229,13 @@ if [ $userfeatures == 3 ]
 then
 
 bash features/Device-Info.sh
+
+fi
+
+if [ $userfeatures == 0 ]
+then
+
+bash AFFT.sh
 
 fi
 

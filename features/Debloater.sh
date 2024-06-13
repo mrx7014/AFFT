@@ -21,14 +21,14 @@ echo ""
 
 read -p "Choose: " mainmenu
 
-if [ $mainmenu == n ]
+if [ $mainmenu == y ]
 then
 
 bash AFFT.sh
 
 fi
 
-if [ $mainmenu == y ]
+if [ $mainmenu == n ]
 then
 
 echo "Uninstall Android Auto (y/n)?"

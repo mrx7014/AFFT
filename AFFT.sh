@@ -18,7 +18,7 @@ sleep 1
 echo ""
 
 echo -e "\033[93m(1) => Features\033[0m"
-echo -e "\033[93m(2) => APPS\033[0m"
+echo -e "\033[93m(2) => Apps\033[0m"
 echo -e "\033[93m(3) => Debloater\033[0m"
 echo -e "\033[93m(4) => Exit\033[0m"
 echo ""

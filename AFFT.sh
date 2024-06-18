@@ -10,7 +10,7 @@ ICAKL19fLyAgICAgXF9fXCB8X198ICAgICB8X198ICAgICAgICAgfF9ffCAgICAgCiAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 
 echo -e "\033[91mWelcome to AFFT Tool\033[0m"
-echo -e "\033[93mVersion: 4.0.1 - Stable\033[0m"
+echo -e "\033[93mVersion: 4.1.1 - Stable\033[0m"
 echo -e "\033[32mCreated By: MRX7014\033[0m"
 
 sleep 1
@@ -20,7 +20,8 @@ echo ""
 echo -e "\033[93m(1) => Features\033[0m"
 echo -e "\033[93m(2) => Apps\033[0m"
 echo -e "\033[93m(3) => Debloater\033[0m"
-echo -e "\033[93m(4) => Exit\033[0m"
+echo -e "\033[93m(4) => Restore Default\033[0m"
+echo -e "\033[93m(5) => Exit\033[0m"
 echo ""
 read -p  "Choose: " user
 
@@ -372,6 +373,42 @@ bash features/Debloater.sh
 fi
 
 if [ $user == 4 ]
+then
+
+clear
+
+base64 -d <<<"CiAgIF9fXyAgICAgICAgICBfXyAgICAgICAgICAgICAgCiAgLyBfIFxfX18gX19fIC8gL19fX18g
+IF9fX19fX18gCiAvICwgXy8gLV98Xy08LyBfXy8gXyBcLyBfXy8gLV8pCi9fL3xffFxfXy9fX18v
+XF9fL1xfX18vXy9fX1xfXy8gCiAgLyBfIFxfX18gLyBfL19fIF9fXyBfXy8gLyAvXyAgCiAvIC8v
+IC8gLV8pIF8vIF8gYC8gLy8gLyAvIF9fLyAgCi9fX19fL1xfXy9fLyBcXyxfL1xfLF8vXy9cX18v
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg=="
+
+echo "Will Delete All ATTF Change And Restore Default Files (buildprop,floating-features,camera-features)"
+
+sleep 2
+
+sudo mount -o rw,remount / && sudo mount -o rw,remount / /dev/null 2>&1
+
+sudo cp features/RestoreDefault/build.prop /system && sudo cp features/BuildProp/build.prop /system > /dev/nill 2>&1
+
+sleep 1
+
+sudo cp features/RestoreDefault/floating_feature.xml /system/etc && sudo cp features/FloatingFeatures/floating_feature.xml /system/etc > /dev/null 2>&1
+
+sleep 1
+
+sudo cp features/RestoreDefault/camera-feature.xml /system/cameradata && sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata > /dev/null 2>&1
+
+sleep 3
+
+echo "Done"
+
+sleep 1
+
+bash AFFT.sh
+fi
+
+if [ $user == 5 ]
 then
 
 clear ; exit

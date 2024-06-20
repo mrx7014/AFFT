@@ -41,7 +41,19 @@
 - Samsung Ai
 - Screen Recorder
 - Call Recorder
-
+- Better RAM managment
+- Disables sending of usage data
+- Faster&Better&More ResponsiveScrolling
+- Liquid Smooth Ui (not the custom rom)
+- Makes apps load faster and frees more ram
+- Increase jpg quality to 100%
+- Rendering Tweaks
+- Qualcomm tweaks
+- Faster streaming videos
+- Dalvik Virtual Machine tweaks
+- Auto Rotation on Lock Screen
+- Force 270 Degree Rotation on All Apps
+- Make Phone Ring as soon as you get a Call
 
 📷Camera:
 - Zoom bar in Pro video

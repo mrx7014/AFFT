@@ -382,6 +382,77 @@ vendor.audio.playback.mch.downsample=true
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 af.fast_track_multiplier=1
+#Better RAM managment
+ro.HOME_APP_ADJ=1
+#Better scrolling
+windowsmgr.max_events_per_sec=150
+ro.min_pointer_dur=8
+ro.max.fling_velocity=12000
+ro.min.fling_velocity=8000
+#Disables sending of usage data
+ro.config.nocheckin=1
+#Helps scrolling responsiveness
+windowsmgr.max_events_per_sec=240
+#Faster Scrolling
+ro.max.fling_velocity=12000
+ro.min.fling_velocity=8000
+#Liquid Smooth Ui (not the custom rom)
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+ro.ril.enable.a52=1
+ro.ril.enable.a53=0
+#makes apps load faster and frees more ram.
+dalvik.vm.dexopt-flags=m=y,v=n,o=v,u=n
+#Increase jpg quality to 100%
+ro.media.enc.jpeg.quality=100
+# Rendering Tweaks
+debug.composition.type=c2d
+debug.egl.hw=1
+debug.enabletr=true
+debug.overlayui.enable=1
+debug.qctwa.preservebuf=1
+debug.performance.tuning=1
+debug.sf.hw=1
+dev.pm.dyn_samplingrate=1
+hw3d.force=1
+ro.config.disable.hw_accel=false
+ro.fb.mode=1
+ro.sf.compbypass.enable=0
+ro.vold.umsdirtyratio=20
+persist.sys.composition.type=c2d
+persist.sys.ui.hw=1
+video.accelerate.hw=1
+#Qualcomm tweaks
+com.qc.hardware=1
+debug.qc.hardware=true
+debug.qctwa.preservebuf=1
+debug.qctwa.statusbar=1
+#Faster streaming videos
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-rtsp=true
+media.stagefright.enable-record=false
+#Dalvik Virtual Machine tweaks
+dalvik.vm.checkjni=false
+dalvik.vm.dexopt-data-only=1
+dalvik.vm.heapstartsize=5m
+dalvik.vm.heapgrowthlimit=48m
+dalvik.vm.heapsize=64m
+dalvik.vm.verify-bytecode=false
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.lockprof.threshold=250
+dalvik.vm.dexopt-flags=m=v,o=y
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+dalvik.vm.jmiopts=forcecopy
+#Auto Rotation on Lock Screen
+lockscreen.rot_override=true
+#Force 270-Degree Rotation on All Apps
+windowsmgr.support_rotation_270=true
+#Make Phone Ring as soon as you get a Call
+ro.telephony.call_ring.delay=0
+ring.delay=0
 ####################################
 # End of AFFT Tool Tweaks
 ####################################
@@ -389,4 +460,3 @@ af.fast_track_multiplier=1
 ####################################
 com.samsung.speg.prelauncher.disable=true
 # end of file
-

@@ -2,7 +2,7 @@
 
 <div align="center"><img src="banner.jpg">
   
-**A Simple Tool To Enable Samsung Flagship Devices Features on Samsung A23**
+**A Simple Tool To Enable Samsung Flagship Devices Features on Samsung A23 4G**
 
 **Working on OneUI 6.1 Only**
 

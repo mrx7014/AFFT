@@ -10,7 +10,7 @@ ICAKL19fLyAgICAgXF9fXCB8X198ICAgICB8X198ICAgICAgICAgfF9ffCAgICAgCiAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 
 echo -e "\033[91mWelcome to AFFT Tool\033[0m"
-echo -e "\033[93mVersion: 4.2.1 - Stable\033[0m"
+echo -e "\033[93mVersion: 4.3.1 - Stable\033[0m"
 echo -e "\033[32mCreated By: MRX7014\033[0m"
 
 sleep 1
@@ -146,15 +146,6 @@ echo "Done"
 echo ""
 
 sleep 2
-
-echo -e "\033[31mNow Will Add S23U Props Magisk Module to AFFT_FILES Folder, You should install it via Magisk and reboot system\033[0m"
-
-mkdir /sdcard/AFFT_FILES && cp features/S23UProps/S23U_UP1A.231005.007.zip /sdcard/AFFT_FILES
-
-sleep 3
-
-echo ""
-
 echo -e "\033[93mNow everything is good, You should install S23U Props Magisk Module And Another APPS From APPS Section (IF YOU WANT) then Reboot Device After You Finish, Wait until tool reopen again \033[0m"
 
 sleep 5

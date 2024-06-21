@@ -2,13 +2,13 @@
 
 <div align="center"><img src="banner.jpg">
   
-**A Simple Tool To Enable Samsung Flagship Devices Features on Samsung A23**
+**A Simple Tool To Enable Samsung Flagship Devices Features on Samsung A23 4G**
 
 **Working on OneUI 6.1 Only**
 
 <br />
 
-# V4.0.1 - Stable Released
+# V4.2.1 - Stable Released
 
 </div>
 
@@ -41,7 +41,19 @@
 - Samsung Ai
 - Screen Recorder
 - Call Recorder
-
+- Better RAM managment
+- Disables sending of usage data
+- Faster&Better&More ResponsiveScrolling
+- Liquid Smooth Ui (not the custom rom)
+- Makes apps load faster and frees more ram
+- Increase jpg quality to 100%
+- Rendering Tweaks
+- Qualcomm tweaks
+- Faster streaming videos
+- Dalvik Virtual Machine tweaks
+- Auto Rotation on Lock Screen
+- Force 270 Degree Rotation on All Apps
+- Make Phone Ring as soon as you get a Call
 
 📷Camera:
 - Zoom bar in Pro video
@@ -52,10 +64,6 @@
 - Expert RAW
 - Pro Mode
 - Pro Video Mode
-
-🤖Apps:
-- <a href="https://youtu.be/tyi2TwdMf0U?si=yx6GzxAvKivUqKRI">Greenify</a>
-- <a href="https://github.com/aistra0528/Hail">Hail</a>
 
 ### First
 

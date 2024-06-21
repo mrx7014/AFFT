@@ -335,13 +335,6 @@ debug.egl.hw=1
 debug.composition.type=gpu
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
-# Enable 4K in YouTube
-sys.display-size=3840x2160
-video.accelerate.hw=1
-ro.media.enc.jpeg.quality=100
-ro.media.dec.jpeg.memcap=8000000
-ro.media.enc.hprof.vid.bps=8000000
-ro.media.enc.hprof.vid.fps=65
 # Enable Multi User
 fw.max_users=5
 fw.show_multiuserui=1
@@ -350,10 +343,6 @@ fw.poweruserswitcher=1
 # Call Delay Fix
 ro.telephony.call.ring.delay=0
 ring.delay=0
-# Save Battery Without Performance Drop
-pm.sleep_mode=1
-ro.ril.disable.power.collapse=0
-wifi.supplicant_scan_interval=180
 # FPS Stabilizer
 debug.sf.showupdates=0
 debug.sf.showcpu=0
@@ -446,10 +435,6 @@ dalvik.vm.lockprof.threshold=250
 dalvik.vm.dexopt-flags=m=v,o=y
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
 dalvik.vm.jmiopts=forcecopy
-#Auto Rotation on Lock Screen
-lockscreen.rot_override=true
-#Force 270-Degree Rotation on All Apps
-windowsmgr.support_rotation_270=true
 #Make Phone Ring as soon as you get a Call
 ro.telephony.call_ring.delay=0
 ring.delay=0

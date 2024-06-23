@@ -98,8 +98,6 @@ echo -e "\033[93mNow everything is good, You should install S24Ultra Spoofer Mag
 sleep 5
 
 echo "Will Back To Main Menu Again"
-sleep 1
+sleep 3
 
 clear ; bash AFFT.sh
-
-fi

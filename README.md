@@ -50,6 +50,7 @@
 - Faster streaming videos
 - Dalvik Virtual Machine tweaks
 - Make Phone Ring as soon as you get a Call
+- Reduce Animations
 
 📷Camera:
 - Zoom bar in Pro video

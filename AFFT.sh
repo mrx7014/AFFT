@@ -10,7 +10,7 @@ ICAKL19fLyAgICAgXF9fXCB8X198ICAgICB8X198ICAgICAgICAgfF9ffCAgICAgCiAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 
 echo -e "\033[91mWelcome to AFFT Tool\033[0m"
-echo -e "\033[93mVersion: 4.3.1 - Stable\033[0m"
+echo -e "\033[93mVersion: 5.0.0 - Stable\033[0m"
 echo -e "\033[32mCreated By: MRX7014\033[0m"
 
 sleep 1
@@ -91,11 +91,11 @@ echo -e "\033[31mNow make System R/W for termux\033[0m"
 
 sleep 1
 
-sudo mount -o rw,remount / && sudo mount -o rw,remount /
+sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
 
 sleep 5
 
-sudo mount -o rw,remount / && sudo mount -o rw,remount /
+sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
 
 echo ""
 
@@ -105,7 +105,7 @@ echo ""
 
 sleep 2
 
-echo -e "\033[32mNow Enable Flagships Features\033[0m"
+echo -e "\033[32mEnable Flagships Features\033[0m"
 
 sudo cp features/BuildProp/build.prop /system && sudo cp features/BuildProp/build.prop /system > /dev/null 2>&1
 
@@ -119,36 +119,61 @@ sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata && sudo cp
 
 sleep 3
 
-echo "Done"
-echo ""
-
 echo -e "\033[93mIf you facing error 'System Is Read Only' Just download Root Explorer App and go to system and mount R/W and run the tool again\033[0m"
 echo ""
 
 sleep 5
 
-echo -e "\033[32mReduce Animations For Better Performance\033[0m"
+echo -e "\033[32mAdd S24Ultra Spoofer Module In AFFT_FILES Folder, (You can find this folder in your device files, VERY RECOMMENDED TO INSTALL IT).\033[0m"
+echo""
+sleep 3
+
+mkdir /sdcard/AFFT_FILES ; cp features/S24UltraSpooferModule/S24Ultra-Spoofer.zip /sdcard/AFFT_FILES
+
+sleep 2
+
+echo "Done"
+echo""
+sleep 1
+
+echo -e "\033[32mDo you Want To Reduce Animations To 0.6?\033[0m"
 echo""
 
-sudo settings put global window_animation_scale 0.7
+read -p "Choose (y/n): " useranimationschoose
+
+if [ $useranimationschoose == y ]
+then
+
+sudo settings put global window_animation_scale 0.6
 
 sleep 1
 
-sudo settings put global transition_animation_scale 0.7
+sudo settings put global transition_animation_scale 0.6
 
 sleep 1
 
-sudo settings put global animator_duration_scale 0.7
+sudo settings put global animator_duration_scale 0.6
 
 sleep 1
 
 echo "Done"
 echo ""
+fi
 
+if [ $ useranimationschoose == n ]
+then
+
+echo "Skip"
+echo ""
 sleep 2
-echo -e "\033[93mNow everything is good, You should install S23U Props Magisk Module And Another APPS From APPS Section (IF YOU WANT) then Reboot Device After You Finish, Wait until tool reopen again \033[0m"
+
+echo -e "\033[93mNow everything is good, You should install S24Ultra Spoofer Magisk Module From AFFT_FILES Folder\033[0m"
 
 sleep 5
+
+echo "Will Back To Main Menu"
+
+sleep 1
 
 bash AFFT.sh
 

@@ -15,16 +15,11 @@ sleep 2
 sudo mount -o rw,remount / && sudo mount -o rw,remount / /dev/null 2>&1
 
 sudo cp features/RestoreDefault/build.prop /system && sudo cp features/BuildProp/build.prop /system > /dev/nill 2>&1
-
 sleep 1
-
 sudo cp features/RestoreDefault/floating_feature.xml /system/etc && sudo cp features/FloatingFeatures/floating_feature.xml /system/etc > /dev/null 2>&1
-
 sleep 1
-
 sudo cp features/RestoreDefault/camera-feature.xml /system/cameradata && sudo cp features/CameraFeatures/camera-feature.xml /system/cameradata > /dev/null 2>&1
-
-sleep 3
+sleep 2
 
 echo "Done"
 

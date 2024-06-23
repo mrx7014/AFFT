@@ -14,41 +14,25 @@ ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 echo""
 
 sleep 1
-
 echo -e "\033[31mChoose App You Want To Install\033[0m"
-
 echo ""
-
 echo -e "\033[31m(1) AI Wallpaper\033[0m"
-
 echo ""
-
 echo -e "\033[31m(0) Back To Main Menu\033[0m"
 echo""
-
 read -p "Choose: " useraifeatures
-
-fi
 
 if [ $useraifeatures == 1 ]
 then
 
 echo ""
-
 echo -e "\033[34mWill Copy AI Wallpaper App On AFFT_FILES On SdCard, Check it\033[0m"
-
 sleep 2
-
 mkdir /sdcard/AFFT_FILES cp Apps/AI-Wallpaper/*.apk /sdcard/AFFT_FILES > /dev/null 2>&1
-
 sleep 3
-
 echo ""
-
 echo "Done"
-
 sleep 1
-
 bash features/GalaxyAI.sh
 fi
 

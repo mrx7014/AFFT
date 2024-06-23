@@ -48,7 +48,7 @@ echo ""
 echo -e "\033[93m(1) => Flagships Features\033[0m"
 echo -e "\033[93m(2) => Galaxy AI\033[0m"
 echo -e "\033[93m(3) => S24 Ultra Device Info\033[0m"
-echo -e "\033[93m(0) => Back To Main Menu\033[0m"
+echo -e "\033[93m(0) => Exit\033[0m"
 echo ""
 read -p  "Choose: " userfeatures
 
@@ -138,11 +138,11 @@ echo -e "\033[93mNow everything is good, You should install S24Ultra Spoofer Mag
 
 sleep 5
 
-echo "Will Back To Main Menu Again"
+echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
 
 sleep 1
 
-clear ; bash AFFT.sh
+exit
 
 fi
 
@@ -172,7 +172,7 @@ echo -e "\033[31m(1) AI Wallpaper\033[0m"
 
 echo ""
 
-echo -e "\033[31m(0) Back To Main Menu\033[0m"
+echo -e "\033[31m(0) Exit\033[0m"
 echo""
 
 read -p "Choose: " useraifeatures
@@ -198,21 +198,22 @@ echo "Done"
 
 sleep 1
 
-echo "Will Back To Main Menu Again"
+echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
 
 sleep 1
 
-clear ; bash AFFT.sh
+exit
 
 fi
 
 if [ $useraifeatures == 0 ]
 then
 
-echo "Will Back To Main Menu Again"
+echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
+
 sleep 1
 
-clear ; bash AFFT.sh
+exit
 
 fi
 
@@ -226,10 +227,11 @@ fi
 if [ $userfeatures == 0 ]
 then
 
-echo "Will Back To Main Menu Again"
+echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
+
 sleep 1
 
-clear ; bash AFFT.sh
+exit
 
 fi
 
@@ -271,10 +273,11 @@ sleep 3
 
 echo "Done"
 
-echo "Will Back To Main Menu Again"
+echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
+
 sleep 1
 
-clear ; bash AFFT.sh
+exit
 
 fi
 

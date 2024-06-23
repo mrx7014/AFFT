@@ -24,7 +24,7 @@ echo "[8] 0.3"
 echo "[9] 0.2"
 echo "[10] 0.1"
 echo "[11] 0.0"
-echo "[*] Back To Main Menu"
+echo "[0] Back To Main Menu"
 echo ""
 read -p "Choose: " useranimationreduce
 if [ $useranimationreduce == 1 ]
@@ -147,4 +147,8 @@ sudo settings put global animator_duration_scale 0.0
 sleep 1
 echo "Done"
 bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 0 ]
+then
+clear ; bash AFFT.sh
 fi

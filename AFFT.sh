@@ -48,7 +48,7 @@ echo ""
 echo -e "\033[93m(1) => Flagships Features\033[0m"
 echo -e "\033[93m(2) => Galaxy AI\033[0m"
 echo -e "\033[93m(3) => S24 Ultra Device Info\033[0m"
-echo -e "\033[93m(0) => Exit\033[0m"
+echo -e "\033[93m(0) => Back To Main Menu\033[0m"
 echo ""
 read -p  "Choose: " userfeatures
 
@@ -133,60 +133,16 @@ mkdir /sdcard/AFFT_FILES ; cp features/S24UltraSpooferModule/S24Ultra-Spoofer.zi
 sleep 2
 
 echo "Done"
-echo""
-sleep 1
-
-fi
-
-echo -e "\033[32mDo you Want To Reduce Animations To 0.6?\033[0m"
-echo""
-
-read -p "Choose (y/n): " useranimationschoose
-
-if [ $useranimationschoose == y ]
-then
-
-sudo settings put global window_animation_scale 0.6
-
-sleep 1
-
-sudo settings put global transition_animation_scale 0.6
-
-sleep 1
-
-sudo settings put global animator_duration_scale 0.6
-
-sleep 1
-
-echo "Done"
 echo ""
 echo -e "\033[93mNow everything is good, You should install S24Ultra Spoofer Magisk Module From AFFT_FILES Folder\033[0m"
 
 sleep 5
 
-echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
+echo "Will Back To Main Menu Again"
 
 sleep 1
 
-clear ; exit
-fi
-
-if [ $useranimationschoose == n ]
-then
-
-echo "Skip"
-echo ""
-sleep 2
-
-echo -e "\033[93mNow everything is good, You should install S24Ultra Spoofer Magisk Module From AFFT_FILES Folder\033[0m"
-
-sleep 5
-
-echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
-
-sleep 1
-
-exit
+clear ; bash AFFT.sh
 
 fi
 
@@ -216,7 +172,7 @@ echo -e "\033[31m(1) AI Wallpaper\033[0m"
 
 echo ""
 
-echo -e "\033[31m(0) Exit\033[0m"
+echo -e "\033[31m(0) Back To Main Menu\033[0m"
 echo""
 
 read -p "Choose: " useraifeatures
@@ -242,22 +198,21 @@ echo "Done"
 
 sleep 1
 
-echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
+echo "Will Back To Main Menu Again"
 
 sleep 1
 
-exit
+clear ; bash AFFT.sh
 
 fi
 
 if [ $useraifeatures == 0 ]
 then
 
-echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
-
+echo "Will Back To Main Menu Again"
 sleep 1
 
-exit
+clear ; bash AFFT.sh
 
 fi
 
@@ -271,11 +226,10 @@ fi
 if [ $userfeatures == 0 ]
 then
 
-echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
-
+echo "Will Back To Main Menu Again"
 sleep 1
 
-exit
+clear ; bash AFFT.sh
 
 fi
 
@@ -317,11 +271,10 @@ sleep 3
 
 echo "Done"
 
-echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
-
+echo "Will Back To Main Menu Again"
 sleep 1
 
-exit
+clear ; bash AFFT.sh
 
 fi
 

@@ -5,7 +5,7 @@
 ro.product.system.brand=samsung
 ro.product.system.device=qssi
 ro.product.system.manufacturer=samsung
-ro.product.system.model=SM-S928B
+ro.product.system.model=SM-A235F
 ro.product.system.name=a23nsxx
 ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.system.product.cpu.abilist32=armeabi-v7a,armeabi
@@ -438,6 +438,10 @@ dalvik.vm.jmiopts=forcecopy
 #Make Phone Ring as soon as you get a Call
 ro.telephony.call_ring.delay=0
 ring.delay=0
+# Save Battery Without Performance Drop
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+wifi.supplicant_scan_interval=180
 ####################################
 # End of AFFT Tool Tweaks
 ####################################

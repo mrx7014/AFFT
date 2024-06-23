@@ -48,6 +48,7 @@ echo ""
 echo -e "\033[93m(1) => Flagships Features\033[0m"
 echo -e "\033[93m(2) => Galaxy AI\033[0m"
 echo -e "\033[93m(3) => S24 Ultra Device Info\033[0m"
+echo -e "\033[93m(4) => Reduce Animations\033[0m"
 echo -e "\033[93m(0) => Back To Main Menu\033[0m"
 echo ""
 read -p  "Choose: " userfeatures
@@ -66,6 +67,11 @@ fi
 if [ $userfeatures == 3 ]
 then
 bash features/Device-Info.sh
+fi
+
+if [ $userfeatures == 4 ]
+then
+bash features/ReduceAnimations.sh
 fi
 
 if [ $userfeatures == 0 ]

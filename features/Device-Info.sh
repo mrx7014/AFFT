@@ -26,8 +26,8 @@ echo "Blue - (BL1) install / (BL2) Preview"
 echo "Gold - (G1) install / (G2) Preview"
 echo "Gray - (GR1) install / (GR2) Preview"
 echo "Green - (GRE1) install / (GRE2) Preview"
-echo "Orange - (O1) install / (O2) Preview"
-echo "Violet - (V1) install / (V2) Preview"
+echo "Orange - (OR1) install / (OR2) Preview"
+echo "Violet - (VI1) install / (VI2) Preview"
 echo ""
 echo "(0) Back to main menu"
 echo ""
@@ -36,14 +36,23 @@ read -p "Choose: " deviceinfo
 if [ $deviceinfo == B1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Black.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Black.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
+sudo chmod 0664 features/Device-Info-Photos/DeviceImageS24U-Black.png
+sleep 1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Black.png /data/user_de/0/com.android.settings/files
+sleep 1
+sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png > /dev/null 2>&1
+sleep 1
+sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Black.png DeviceImage.png
+sleep 1
+sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
+
 sleep 1 
 
 echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -58,14 +67,22 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
 if [ $deviceinfo == BL1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Blue.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Blue.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
+sudo chmod 0664 features/Device-Info-Photos/DeviceImageS24U-Gold.png
+sleep 1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Black.png /data/user_de/0/com.android.settings/files
+sleep 1
+sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png > /dev/null 2>&1
+sleep 1
+sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Blue.png DeviceImage.png
+sleep 1
+sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -73,7 +90,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -88,14 +105,22 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
 if [ $deviceinfo == G1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Gold.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Gold.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
+sudo chmod 0664 features/Device-Info-Photos/DeviceImageS24U-Gold.png
+sleep 1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Gold.png /data/user_de/0/com.android.settings/files
+sleep 1
+sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png > /dev/null 2>&1
+sleep 1
+sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Gold.png DeviceImage.png
+sleep 1
+sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -103,7 +128,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -118,14 +143,22 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
 if [ $deviceinfo == GR1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Gray.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Gray.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
+sudo chmod 0664 features/Device-Info-Photos/DeviceImageS24U-Gray.png
+sleep 1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Gray.png /data/user_de/0/com.android.settings/files
+sleep 1
+sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png > /dev/null 2>&1
+sleep 1
+sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Gray.png DeviceImage.png
+sleep 1
+sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -133,7 +166,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -148,14 +181,22 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
 if [ $deviceinfo == GRE1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Green.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Green.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
+sudo chmod 0664 features/Device-Info-Photos/DeviceImageS24U-Green.png
+sleep 1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Green.png /data/user_de/0/com.android.settings/files
+sleep 1
+sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png > /dev/null 2>&1
+sleep 1
+sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Green.png DeviceImage.png
+sleep 1
+sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -163,7 +204,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -178,14 +219,22 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
-if [ $deviceinfo == O1 ]
+if [ $deviceinfo == OR1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Orange.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Orange.png DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
+sudo chmod 0664 features/Device-Info-Photos/DeviceImageS24U-Orange.png
+sleep 1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Orange.png /data/user_de/0/com.android.settings/files
+sleep 1
+sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png > /dev/null 2>&1
+sleep 1
+sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Orange.png DeviceImage.png
+sleep 1
+sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -193,11 +242,11 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
-if [ $deviceinfo == O2 ]
+if [ $deviceinfo == OR2 ]
 then
 
 echo "Will open a web browser to preview color that you choose"
@@ -208,14 +257,22 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
-if [ $deviceinfo == V1 ]
+if [ $deviceinfo == VI1 ]
 then
 
-sudo cp features/Device-Info-Photos/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files ; sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files/DeviceImage.png ; sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
+sudo chmod 0664 features/Device-Info-Photos/DeviceImageS24U-Violet.png
+sleep 1
+sudo cp features/Device-Info-Photos/DeviceImageS24U-Violet.png /data/user_de/0/com.android.settings/files
+sleep 1
+sudo rm -r /data/user_de/0/com.android.settings/files/DeviceImage.png > /dev/null 2>&1
+sleep 1
+sudo mv /data/user_de/0/com.android.settings/files/DeviceImageS24U-Violet.png DeviceImage.png
+sleep 1
+sudo chmod 0644 /date/user_de/0/com.android.settings/files/DeviceImage.png
 
 sleep 1 
 
@@ -223,11 +280,11 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
-if [ $deviceinfo == V2 ]
+if [ $deviceinfo == VI2 ]
 then
 
 echo "Will open a web browser to preview color that you choose"
@@ -238,13 +295,13 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
 if [ $deviceinfo == 0 ]
 then
 
-bash AFFT.sh
+clear ; bash AFFT.sh
 
 fi

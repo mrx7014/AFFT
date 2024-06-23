@@ -8,7 +8,7 @@
 
 <br />
 
-# V4.3.1 - Stable Released
+# V5.0.0 - Stable Released
 
 </div>
 
@@ -19,6 +19,7 @@
 - Performance Profile
 - Processing Speed
 - Smooth Scroll
+- Save Battery Without Performance Drop
 - Dolby Atmos without Headsets
 - Dolby Atmos in Games
 - Dolby Atmos Game Profiles
@@ -49,6 +50,7 @@
 - Faster streaming videos
 - Dalvik Virtual Machine tweaks
 - Make Phone Ring as soon as you get a Call
+- Reduce Animations
 
 📷Camera:
 - Zoom bar in Pro video

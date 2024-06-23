@@ -20,12 +20,11 @@ echo "[*] Back To Main Menu (y/n)"
 echo ""
 
 read -p "Choose: " mainmenu
+echo""
 
 if [ $mainmenu == y ]
 then
-
-bash AFFT.sh
-
+clear ; bash AFFT.sh
 fi
 
 if [ $mainmenu == n ]
@@ -328,56 +327,6 @@ fi
 
 echo ""
 
-echo "Uninstall Bookmark Provider (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.android.bookmarkprovider
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall Knox Mops (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.samsung.android.knox.mpos
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
 echo "Uninstall Smart Switch Assistant (y/n)?"
 
 read -p "Choose: " user
@@ -554,31 +503,6 @@ fi
 
 echo ""
 
-echo "Uninstall Galaxy Service Setup (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.samsung.android.dbsc
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
 echo "Uninstall Gmail (y/n)?"
 
 read -p "Choose: " user
@@ -629,106 +553,6 @@ fi
 
 echo ""
 
-echo "Uninstall Google Calendar Sync (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.google.android.syncadapters.calendar
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall Google Location History (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.google.android.gms.location.history
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall Google One Time Init (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.google.android.onetimeinitializer
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall Google Partner Setup (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.google.android.partnersetup
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
 echo "Uninstall Group Sharing (y/n)?"
 
 read -p "Choose: " user
@@ -763,231 +587,6 @@ if [ $user == y ]
 then
 
 sudo pm uninstall -k --user 0 com.google.android.healthconnect.controller
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall KLMS Agent (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.samsung.klmsagent
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall KmxService (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.samsung.android.kmxservice
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall Knox Analytics Uploader (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.samsung.android.knox.analytics.uploader
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall Knox Enrollment Service (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.sec.enterprise.knox.cloudmdm.smdms
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall KnoxCore (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.samsung.android.knox.containercore
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall KnoxNetworkFilter (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.samsung.android.knox.app.networkfilter
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall KnoxPushManager (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.samsung.android.knox.pushmanager
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall KnoxVpnPacProcessor (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.knox.vpn.proxyhandler
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall KPECore (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.samsung.android.knox.kpecore
 
 sleep 2
 
@@ -1263,31 +862,6 @@ if [ $user == y ]
 then
 
 sudo pm uninstall -k --user 0 com.samsung.android.inputshare
-
-sleep 2
-
-echo "Done"
-
-fi
-
-if [ $user == n ]
-then
-
-echo "Skip"
-
-fi
-
-echo ""
-
-echo "Uninstall Samsung My Files (y/n)?"
-
-read -p "Choose: " user
-
-if [ $user == y ]
-
-then
-
-sudo pm uninstall -k --user 0 com.sec.android.app.myfiles
 
 sleep 2
 
@@ -2186,13 +1760,8 @@ sleep 1
 
 echo ""
 
-echo "Will back to main menu now"
+echo "Will Back To Main Menu"
 
-sleep 2
+sleep 1
 
-bash AFFT.sh
-
-if [ $user == 0 ]
-then
-bash AFFT.sh
-fi
+clear ; bash AFFT.sh

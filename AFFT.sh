@@ -286,7 +286,7 @@ XF9fL1xfX18vXy9fX1xfXy8gCiAgLyBfIFxfX18gLyBfL19fIF9fXyBfXy8gLyAvXyAgCiAvIC8v
 IC8gLV8pIF8vIF8gYC8gLy8gLyAvIF9fLyAgCi9fX19fL1xfXy9fLyBcXyxfL1xfLF8vXy9cX18v
 ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg=="
 
-echo "Will Delete All ATTF Change And Restore Default Files (buildprop,floating-features,camera-features)"
+echo "Will Delete All AFFT Changes And Restore Default Files (buildprop,floating-features,camera-features)"
 
 sleep 2
 

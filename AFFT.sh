@@ -168,7 +168,7 @@ echo "Will Back To Main Menu"
 
 sleep 1
 
-bash AFFT.sh
+clear ; bash AFFT.sh
 
 fi
 
@@ -187,7 +187,7 @@ echo "Will Back To Main Menu"
 
 sleep 1
 
-bash AFFT.sh
+clear ; bash AFFT.sh
 
 fi
 
@@ -243,14 +243,14 @@ echo "Done"
 
 sleep 1
 
-bash AFFT.sh
+clear ; bash AFFT.sh
 
 fi
 
 if [ $useraifeatures == 0 ]
 then
 
-bash AFFT.sh
+clear ; bash AFFT.sh
 
 fi
 
@@ -264,7 +264,7 @@ fi
 if [ $userfeatures == 0 ]
 then
 
-bash AFFT.sh
+clear ; bash AFFT.sh
 
 fi
 
@@ -308,7 +308,7 @@ echo "Done"
 
 sleep 1
 
-bash AFFT.sh
+clear ; bash AFFT.sh
 fi
 
 if [ $user == 4 ]

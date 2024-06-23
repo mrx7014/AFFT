@@ -172,7 +172,7 @@ bash AFFT.sh
 
 fi
 
-if [ $ useranimationschoose == n ]
+if [ $useranimationschoose == n ]
 then
 
 echo "Skip"

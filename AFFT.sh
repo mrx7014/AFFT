@@ -136,6 +136,8 @@ echo "Done"
 echo""
 sleep 1
 
+fi
+
 echo -e "\033[32mDo you Want To Reduce Animations To 0.6?\033[0m"
 echo""
 

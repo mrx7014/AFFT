@@ -8,7 +8,7 @@
 
 <br />
 
-# V4.2.1 - Stable Released
+# V4.3.1 - Stable Released
 
 </div>
 
@@ -25,7 +25,6 @@
 - Flagship Edge Ligthining+
 - Disable Index Scroll
 - Multi Users
-- S23 Ultra Props
 - Improve voice call quality
 - Improves audio and video recording quality
 - Better signal
@@ -33,9 +32,7 @@
 - Better Responsiveness & Speed
 - Video Acceleration Enabled And HW debugging
 - Zygote Preforking
-- Enable 4K in YouTube "Working with Youtube Vanced"
 - Discrease call delay
-- Save Battery Without Performance Drop
 - FPS Stabilizer
 - Audio Improvements
 - Samsung Ai
@@ -51,8 +48,6 @@
 - Qualcomm tweaks
 - Faster streaming videos
 - Dalvik Virtual Machine tweaks
-- Auto Rotation on Lock Screen
-- Force 270 Degree Rotation on All Apps
 - Make Phone Ring as soon as you get a Call
 
 📷Camera:

@@ -24,5 +24,127 @@ echo "[8] 0.3"
 echo "[9] 0.2"
 echo "[10] 0.1"
 echo "[11] 0.0"
+echo "[*] Back To Main Menu"
 echo ""
-read -p "Choose: "
+read -p "Choose: " useranimationreduce
+if [ $useranimationreduce == 1 ]
+then
+sudo settings put global window_animation_scale 1.0
+sleep 1
+sudo settings put global transition_animation_scale 1.0
+sleep 1
+sudo settings put global animator_duration_scale 1.0
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 2 ]
+then
+sudo settings put global window_animation_scale 0.9
+sleep 1
+sudo settings put global transition_animation_scale 0.9
+sleep 1
+sudo settings put global animator_duration_scale 0.9
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 3 ]
+then
+sudo settings put global window_animation_scale 0.8
+sleep 1
+sudo settings put global transition_animation_scale 0.8
+sleep 1
+sudo settings put global animator_duration_scale 0.8
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 4 ]
+then
+sudo settings put global window_animation_scale 0.7
+sleep 1
+sudo settings put global transition_animation_scale 0.7
+sleep 1
+sudo settings put global animator_duration_scale 0.7
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 5 ]
+then
+sudo settings put global window_animation_scale 0.6
+sleep 1
+sudo settings put global transition_animation_scale 0.6
+sleep 1
+sudo settings put global animator_duration_scale 0.6
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 6 ]
+then
+sudo settings put global window_animation_scale 0.5
+sleep 1
+sudo settings put global transition_animation_scale 0.5
+sleep 1
+sudo settings put global animator_duration_scale 0.5
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 7 ]
+then
+sudo settings put global window_animation_scale 0.4
+sleep 1
+sudo settings put global transition_animation_scale 0.4
+sleep 1
+sudo settings put global animator_duration_scale 0.4
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 8 ]
+then
+sudo settings put global window_animation_scale 0.3
+sleep 1
+sudo settings put global transition_animation_scale 0.3
+sleep 1
+sudo settings put global animator_duration_scale 0.3
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 9 ]
+then
+sudo settings put global window_animation_scale 0.2
+sleep 1
+sudo settings put global transition_animation_scale 0.2
+sleep 1
+sudo settings put global animator_duration_scale 0.2
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 10 ]
+then
+sudo settings put global window_animation_scale 0.1
+sleep 1
+sudo settings put global transition_animation_scale 0.1
+sleep 1
+sudo settings put global animator_duration_scale 0.1
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi
+if [ $useranimationreduce == 11 ]
+then
+sudo settings put global window_animation_scale 0.0
+sleep 1
+sudo settings put global transition_animation_scale 0.0
+sleep 1
+sudo settings put global animator_duration_scale 0.0
+sleep 1
+echo "Done"
+bash features/ReduceAnimations.sh
+fi

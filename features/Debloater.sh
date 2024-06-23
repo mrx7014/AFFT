@@ -25,7 +25,7 @@ echo""
 if [ $mainmenu == y ]
 then
 
-bash AFFT.sh
+clear bash AFFT.sh
 
 fi
 
@@ -1766,9 +1766,4 @@ echo "Will back to main menu now"
 
 sleep 2
 
-bash AFFT.sh
-
-if [ $user == 0 ]
-then
-bash AFFT.sh
-fi
+clear ; bash AFFT.sh

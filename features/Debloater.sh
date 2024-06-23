@@ -16,7 +16,7 @@ echo "Debloat OneUI For Best Performance"
 sleep 2
 
 echo ""
-echo "[*] Exit (y/n)"
+echo "[*] Back To Main Menu (y/n)"
 echo ""
 
 read -p "Choose: " mainmenu
@@ -25,12 +25,7 @@ echo""
 if [ $mainmenu == y ]
 then
 
-echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
-
-sleep 1
-
-exit
-
+clear ; bash AFFT.sh
 
 fi
 
@@ -1767,8 +1762,8 @@ sleep 1
 
 echo ""
 
-echo "The Tool Will Close Now, Run it again type (bash AFFT.sh)"
+echo "Will Back To Main Menu Again"
 
 sleep 1
 
-exit
+clear ; bash AFFT.sh

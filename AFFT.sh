@@ -160,6 +160,16 @@ sleep 1
 
 echo "Done"
 echo ""
+echo -e "\033[93mNow everything is good, You should install S24Ultra Spoofer Magisk Module From AFFT_FILES Folder\033[0m"
+
+sleep 5
+
+echo "Will Back To Main Menu"
+
+sleep 1
+
+bash AFFT.sh
+
 fi
 
 if [ $ useranimationschoose == n ]

@@ -8,7 +8,7 @@
 
 <br />
 
-# V4.3.1 - Stable Released
+# V5.0.0 - Stable Released
 
 </div>
 
@@ -19,6 +19,7 @@
 - Performance Profile
 - Processing Speed
 - Smooth Scroll
+- Save Battery Without Performance Drop
 - Dolby Atmos without Headsets
 - Dolby Atmos in Games
 - Dolby Atmos Game Profiles

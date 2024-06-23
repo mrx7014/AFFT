@@ -56,7 +56,7 @@ fi
 
 if [ $userfeatures == 1 ]
 then
-bash features/FloatingFeatures.sh
+bash features/FlagshipFeatures.sh
 fi
 
 if [ $userfeatures == 2 ]

@@ -52,7 +52,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -67,7 +67,7 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -90,7 +90,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -105,7 +105,7 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -128,7 +128,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -143,7 +143,7 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -166,7 +166,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -181,7 +181,7 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -204,7 +204,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -219,7 +219,7 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -242,7 +242,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -257,7 +257,7 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -280,7 +280,7 @@ echo "Done"
 
 sleep 1
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
@@ -295,13 +295,13 @@ xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos
 
 sleep 2
 
-bash features/Device-Info.sh
+clear ; bash features/Device-Info.sh
 
 fi
 
 if [ $deviceinfo == 0 ]
 then
 
-bash AFFT.sh
+clear ; bash AFFT.sh
 
 fi

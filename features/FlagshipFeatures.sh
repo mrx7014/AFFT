@@ -51,10 +51,17 @@ echo -e "\033[31mNow make System R/W for termux\033[0m"
 sleep 1
 
 sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount /vendor && sudo mount -o rw,remount /vendor > /dev/null 2>&1
+
+sleep 3
+
+sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount /vendor && sudo mount -o rw,remount /vendor > /dev/null 2>&1
 
 sleep 5
 
 sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount /vendor && sudo mount -o rw,remount /vendor > /dev/null 2>&1
 
 echo ""
 

@@ -442,6 +442,8 @@ ring.delay=0
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
 wifi.supplicant_scan_interval=180
+# Change Default Rendering Driver To Vulkan
+debug.hwui.renderer=vulkan
 ####################################
 # End of AFFT Tool Tweaks
 ####################################

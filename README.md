@@ -1,6 +1,6 @@
 # AFFT - A23 Flagship Features Tool
 
-<div align="center"><img src="banner.jpg">
+<div align="center"><img src="AFFT_banner.jpg">
   
 **A Simple Tool To Enable Samsung Flagship Devices Features on Samsung A23 4G**
 
@@ -8,7 +8,7 @@
 
 <br />
 
-# V5.0.0 - Stable Released
+# V5.1.1 - Stable Released
 
 </div>
 

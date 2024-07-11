@@ -51,10 +51,17 @@ echo -e "\033[31mNow make System R/W for termux\033[0m"
 sleep 1
 
 sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount /vendor && sudo mount -o rw,remount /vendor > /dev/null 2>&1
+
+sleep 3
+
+sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount /vendor && sudo mount -o rw,remount /vendor > /dev/null 2>&1
 
 sleep 5
 
 sudo mount -o rw,remount / && sudo mount -o rw,remount / > /dev/null 2>&1
+sudo mount -o rw,remount /vendor && sudo mount -o rw,remount /vendor > /dev/null 2>&1
 
 echo ""
 
@@ -66,7 +73,11 @@ sleep 2
 
 echo -e "\033[32mEnable Flagships Features\033[0m"
 
-sudo cp features/BuildProp/build.prop /system && sudo cp features/BuildProp/build.prop /system > /dev/null 2>&1
+sudo cp features/BuildProp/System/build.prop /system && sudo cp features/BuildProp/System/build.prop /system > /dev/null 2>&1
+
+sleep 1
+
+sudo cp features/BuildProp/Vendor/build.prop /vendor && sudo cp features/BuildProp/Vendor/build.prop /vendor > /dev/null 2>&1
 
 sleep 1
 

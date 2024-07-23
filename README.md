@@ -51,8 +51,8 @@
 - Dalvik Virtual Machine tweaks
 - Make Phone Ring as soon as you get a Call
 - Reduce Animations
-- Full HD 60 FPS For camera recording video
-- Motion Photo
+- Add Mic Focus Mode
+
 
 📷Camera:
 - Zoom bar in Pro video
@@ -63,6 +63,8 @@
 - Expert RAW
 - Pro Mode
 - Pro Video Mode
+- Full HD 60 FPS For camera recording video
+- Motion Photo
 
 ### First
 

@@ -8,7 +8,7 @@
 
 <br />
 
-# V5.1.1 - Stable Released
+# V6.0.0 - Stable Released
 
 </div>
 

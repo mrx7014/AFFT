@@ -50,7 +50,7 @@ sleep 1
 
 echo -e "\033[32minstall requireq packages\033[0m"
 
-pkg update ; pkg install tsu ; pkg install mount-utils ; pkg install xdg-utils
+pkg update ; pkg install tsu ; pkg install mount-utils
 
 sleep 1
 
@@ -104,15 +104,8 @@ sleep 2
 echo "Done"
 echo ""
 echo -e "\033[93mNow everything is good, You should install S24Ultra Spoofer Magisk Module From AFFT_FILES Folder\033[0m"
-
+echo ""
 sleep 5
-
-echo "Remember to join our channel to support us"
-sleep 5
-
-xdg-open https://t.me/mrx7014cloud
-
-sleep 1
 
 echo "Will Back To Main Menu Again"
 sleep 3
@@ -200,16 +193,8 @@ sleep 2
 echo "Done"
 echo ""
 echo -e "\033[93mNow everything is good, You should install S24Ultra Spoofer Magisk Module From AFFT_FILES Folder\033[0m"
-
-sleep 3
-
-echo "Remember to join our channel to support us"
-
+echo ""
 sleep 5
-
-xdg-open https://t.me/mrx7014cloud
-
-sleep 1
 
 echo "Will Back To Main Menu Again"
 sleep 3

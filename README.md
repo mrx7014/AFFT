@@ -5,10 +5,11 @@
 **A Simple Tool To Enable Samsung Flagship Devices Features on Samsung A23 4G**
 
 **Working on OneUI 6.1 Only**
+**Working on A235F & A235M**
 
 <br />
 
-# V6.0.0 - Stable Released
+# V6.1.0 - Stable Released
 
 </div>
 
@@ -39,10 +40,7 @@
 - Samsung Ai
 - Screen Recorder
 - Call Recorder
-- Better RAM managment
 - Disables sending of usage data
-- Faster&Better&More ResponsiveScrolling
-- Liquid Smooth Ui (not the custom rom)
 - Makes apps load faster and frees more ram
 - Increase jpg quality to 100%
 - Rendering Tweaks
@@ -52,7 +50,8 @@
 - Make Phone Ring as soon as you get a Call
 - Reduce Animations
 - Add Mic Focus Mode
-
+- Disables blackscreen issue after a call
+- Fun Features, a new section that include a lot of funny things like( "Scamsung" Bootanimation)
 
 📷Camera:
 - Zoom bar in Pro video
@@ -63,7 +62,6 @@
 - Expert RAW
 - Pro Mode
 - Pro Video Mode
-- Full HD 60 FPS For camera recording video
 - Motion Photo
 
 ### First

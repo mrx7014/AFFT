@@ -69,7 +69,7 @@
 
 > [!IMPORTANT]
 > **Your System Partition Should Be Read/Write, Read this to know how to do this** <a href="https://telegra.ph/How-to-convert-System-form-Read-Only-to-Read-Write-05-06">Here</a>
-> **Flash this vendor image from twrp after convert system to R/W to fix camera issue** <a href="https://4pda.to/forum/index.php?showtopic=1041728&view=findpost&p=124111971">Here</a>
+>  // **Flash this vendor image from twrp after convert system to R/W to fix camera issue** <a href="https://4pda.to/forum/index.php?showtopic=1041728&view=findpost&p=124111971">Here</a>
 
 - **Download Termux App:** <a href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk">**Here**</a>
 

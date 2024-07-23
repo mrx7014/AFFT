@@ -21,7 +21,7 @@ echo ""
 echo "Choose Your Device Version"
 echo ""
 echo "1:A235F"
-echo "2:A35M"
+echo "2:A235M"
 echo ""
 read -p "Choose: " user_device_version
 

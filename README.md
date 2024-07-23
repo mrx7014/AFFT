@@ -63,6 +63,7 @@
 - Pro Mode
 - Pro Video Mode
 - Motion Photo
+- Take Photos While Recording Video
 
 ### First
 

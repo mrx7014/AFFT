@@ -28,11 +28,11 @@ read -p "Choose: " user_device_version
 if [ $user_device_version == 1 ]
 then
 
-bash BuildProp/A235F/Flagship-Features-A235F.sh
+bash features/BuildProp/A235F/Flagship-Features-A235F.sh
 fi
 
 if [ $user_device_version == 2 ]
 then
 
-bash BuildProp/A235M/Flagship-Features-A235M.sh
+bash features/BuildProp/A235M/Flagship-Features-A235M.sh
 fi

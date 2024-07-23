@@ -19,7 +19,7 @@ LSciYC0wLTAtJyJgLTAtMC0nImAtMC0wLSciYC0wLTAtJyJgLTAtMC0nImAtMC0wLScgCg=="
 echo ""
 
 echo "1:Scamsung Bootanimation"
-echo "2:Back to mainmenu"
+echo "0:Back to main menu"
 read -p "Choose: " user_fun_features
 
 if [ $user_fun_features == 1 ]

@@ -407,6 +407,10 @@ debug.hwui.renderer=vulkan
 # Disables blackscreen issue after a call
 ro.lge.proximity.delay=25
 mot.proximity.delay=25
+# Better RAM Management
+ro.HOME_APP_ADJ = 1
+# Disable Android logger – log-cat
+logcat.live=disable
 ####################################
 # End of AFFT Tool Tweaks
 ####################################

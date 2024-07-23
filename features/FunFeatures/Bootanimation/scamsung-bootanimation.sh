@@ -34,5 +34,5 @@ cp features/FunFeatures/shutdown.qmg /system/media
 sleep 3
 
 echo "Done !"
-sleep1
+sleep 1
 clear ; bash AFFT.sh

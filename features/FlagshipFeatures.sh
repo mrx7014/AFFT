@@ -50,7 +50,7 @@ sleep 1
 
 echo -e "\033[32minstall requireq packages\033[0m"
 
-pkg update ; pkg install tsu ; pkg install mount-utils
+pkg update ; pkg install tsu ; pkg install mount-utils ; pkg install xdg-utils
 
 sleep 1
 

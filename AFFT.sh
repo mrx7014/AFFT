@@ -10,7 +10,7 @@ ICAKL19fLyAgICAgXF9fXCB8X198ICAgICB8X198ICAgICAgICAgfF9ffCAgICAgCiAgICAgICAg
 ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 
 echo -e "\033[91mWelcome to AFFT Tool\033[0m"
-echo -e "\033[93mVersion: 6.0.0 - Stable\033[0m"
+echo -e "\033[93mVersion: 6.1.0 - Stable\033[0m"
 echo -e "\033[32mCreated By: MRX7014\033[0m"
 
 sleep 1

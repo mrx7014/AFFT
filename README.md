@@ -5,10 +5,11 @@
 **A Simple Tool To Enable Samsung Flagship Devices Features on Samsung A23 4G**
 
 **Working on OneUI 6.1 Only**
+**Working on A235F & A235M**
 
 <br />
 
-# V6.0.0 - Stable Released
+# V6.1.0 - Stable Released
 
 </div>
 
@@ -39,10 +40,7 @@
 - Samsung Ai
 - Screen Recorder
 - Call Recorder
-- Better RAM managment
 - Disables sending of usage data
-- Faster&Better&More ResponsiveScrolling
-- Liquid Smooth Ui (not the custom rom)
 - Makes apps load faster and frees more ram
 - Increase jpg quality to 100%
 - Rendering Tweaks
@@ -52,7 +50,8 @@
 - Make Phone Ring as soon as you get a Call
 - Reduce Animations
 - Add Mic Focus Mode
-
+- Disables blackscreen issue after a call
+- Fun Features, a new section that include a lot of funny things like( "Scamsung" Bootanimation)
 
 📷Camera:
 - Zoom bar in Pro video
@@ -63,13 +62,14 @@
 - Expert RAW
 - Pro Mode
 - Pro Video Mode
-- Full HD 60 FPS For camera recording video
 - Motion Photo
+- Take Photos While Recording Video
 
 ### First
 
 > [!IMPORTANT]
 > **Your System Partition Should Be Read/Write, Read this to know how to do this** <a href="https://telegra.ph/How-to-convert-System-form-Read-Only-to-Read-Write-05-06">Here</a>
+>  // **Flash this vendor image from twrp after convert system to R/W to fix camera issue** <a href="https://4pda.to/forum/index.php?showtopic=1041728&view=findpost&p=124111971">Here</a>
 
 - **Download Termux App:** <a href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk">**Here**</a>
 

@@ -436,9 +436,6 @@ dalvik.vm.dexopt-flags=m=v,o=y
 ####################################
 # AFFT Tool Tweaks
 ####################################
-# Circle To Search
-ro.com.google.cdb.spa1=bsxasm1
-ro.bbt.support.circle2search=true
 # Improves audio and video recording quality
 ro.media.enc.jpeg.quality=100
 ro.media.dec.jpeg.memcap=8000000
@@ -452,9 +449,6 @@ ro.camera.enableCamera1MaxZsl=1
 camera.disable_zsl_mode=1
 # Better call voice quality
 ro.ril.enable.amr.wideband=1
-# Better signal
-persist.cust.tel.eons=1
-ro.config.hw_fast_dormancy=1
 # Faster boot time
 persist.sys.shutdown.mode=hibernate
 ro.config.hw_quickpoweron=true
@@ -464,13 +458,6 @@ ro.max.fling_velocity=15000
 ro.min.fling_velocity=8000 
 ro.min_pointer_dur=8
 touch.pressure.scale=0.1
-# Video Acceleration Enabled And HW debugging
-debug.hwui.renderer=skiagl
-video.accelerate.hw=1
-debug.sf.hw=1
-debug.performance.tuning=1
-debug.egl.hw=1
-debug.composition.type=gpu
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
 # Enable Multi User
@@ -478,9 +465,6 @@ fw.max_users=5
 fw.show_multiuserui=1
 fw.showhiddenusers=1 
 fw.poweruserswitcher=1
-# Call Delay Fix
-ro.telephony.call.ring.delay=0
-ring.delay=0
 # FPS Stabilizer
 debug.sf.showupdates=0
 debug.sf.showcpu=0
@@ -515,11 +499,6 @@ ro.config.nocheckin=1
 dalvik.vm.dexopt-flags=m=y,v=n,o=v,u=n
 #Increase jpg quality to 100%
 ro.media.enc.jpeg.quality=100
-#Qualcomm tweaks
-com.qc.hardware=1
-debug.qc.hardware=true
-debug.qctwa.preservebuf=1
-debug.qctwa.statusbar=1
 #Dalvik Virtual Machine tweaks
 dalvik.vm.checkjni=false
 dalvik.vm.dexopt-data-only=1

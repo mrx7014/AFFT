@@ -9,7 +9,7 @@
 
 <br />
 
-# V6.2.0 - Stable Released
+# V6.3.0 - Stable Released
 
 </div>
 
@@ -25,29 +25,15 @@
 - Dolby Atmos in Games
 - Dolby Atmos Game Profiles
 - Flagship Edge Ligthining+
-- Disable Index Scroll
 - Multi Users
-- Improve voice call quality
-- Improves audio and video recording quality
-- Better signal
 - Faster Boot
 - Better Responsiveness & Speed
-- Video Acceleration Enabled And HW debugging
-- Zygote Preforking
-- Discrease call delay
 - FPS Stabilizer
-- Audio Improvements
 - Samsung Ai
 - Screen Recorder
 - Call Recorder
 - Disables sending of usage data
 - Makes apps load faster and frees more ram
-- Increase jpg quality to 100%
-- Rendering Tweaks
-- Qualcomm tweaks
-- Faster streaming videos
-- Dalvik Virtual Machine tweaks
-- Make Phone Ring as soon as you get a Call
 - Reduce Animations
 - Add Mic Focus Mode
 - Disables blackscreen issue after a call

@@ -297,21 +297,8 @@ ro.audio.spatializer_enabled=true
 ro.audio.spatializer_enabled=true
 ro.netflix.bsp_rev=Q6115-31409-1
 ####################################
-# AFFT Tool Tweaks
+# AFFT V6.3.0 - Stable Tweaks
 ####################################
-# Improves audio and video recording quality
-ro.media.enc.jpeg.quality=100
-ro.media.dec.jpeg.memcap=8000000
-ro.media.enc.hprof.vid.bps=8000000
-ro.media.capture.maxres=8m
-ro.media.panorama.defres=3264×1840
-ro.media.panorama.frameres=1280×720
-ro.camcorder.videoModes=true
-ro.media.enc.hprof.vid.fps=65
-ro.camera.enableCamera1MaxZsl=1
-camera.disable_zsl_mode=1
-# Better call voice quality
-ro.ril.enable.amr.wideband=1
 # Faster boot time
 persist.sys.shutdown.mode=hibernate
 ro.config.hw_quickpoweron=true
@@ -321,8 +308,6 @@ ro.max.fling_velocity=15000
 ro.min.fling_velocity=8000 
 ro.min_pointer_dur=8
 touch.pressure.scale=0.1
-# Zygote preforking
-persist.device_config.runtime_native.usap_pool_enabled=true
 # Enable Multi User
 fw.max_users=5
 fw.show_multiuserui=1
@@ -333,50 +318,10 @@ debug.sf.showupdates=0
 debug.sf.showcpu=0
 debug.sf.showbackground=0
 debug.sf.showfps=0
-# Audio Improvements
-vendor.audio.media.stereo.control=0
-persist.audio.dualmic.config=endfire
-persist.audio.fluence.mode=endfire
-persist.audio.fluence.voicecall=true
-persist.vendor.audio.fluence.voicecomm=true
-persist.audio.fluence.voicerec=false
-persist.audio.fluence.speaker=true
-audio.deep_buffer.media=true
-vendor.voice.conc.fallbackpath=deep-buffer
-ro.media.dec.aud.mp3.enabled=1
-ro.media.enc.aud.mp3.enabled=1
-ro.media.dec.aud.flac.enabled=1
-ro.media.enc.aud.flac.enabled=1
-ro.media.dec.aud.wma.enabled=1
-ro.media.enc.aud.wma.enabled=1
-media.aac_51_output_enabled=true
-flac.sw.decoder.24bit.support=true
-persist.audio.speaker.dualmode=true
-vendor.audio.playback.mch.downsample=true
-vendor.audio.use.sw.alac.decoder=true
-vendor.audio.use.sw.ape.decoder=true
-af.fast_track_multiplier=1
 #Disables sending of usage data
 ro.config.nocheckin=1
 #makes apps load faster and frees more ram.
 dalvik.vm.dexopt-flags=m=y,v=n,o=v,u=n
-#Increase jpg quality to 100%
-ro.media.enc.jpeg.quality=100
-#Dalvik Virtual Machine tweaks
-dalvik.vm.checkjni=false
-dalvik.vm.dexopt-data-only=1
-dalvik.vm.heapstartsize=5m
-dalvik.vm.heapgrowthlimit=48m
-dalvik.vm.heapsize=64m
-dalvik.vm.verify-bytecode=false
-dalvik.vm.execution-mode=int:jit
-dalvik.vm.lockprof.threshold=250
-dalvik.vm.dexopt-flags=m=v,o=y
-dalvik.vm.stack-trace-file=/data/anr/traces.txt
-dalvik.vm.jmiopts=forcecopy
-#Make Phone Ring as soon as you get a Call
-ro.telephony.call_ring.delay=0
-ring.delay=0
 # Save Battery Without Performance Drop
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=0

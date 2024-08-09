@@ -300,14 +300,31 @@ ro.netflix.bsp_rev=Q6115-31409-1
 # AFFT V6.3.0 - Stable Tweaks
 ####################################
 # Faster boot time
-persist.sys.shutdown.mode=hibernate
+ro.config.hw_power_saving=1
+ro.config.hw_fast_dormancy=1
+ro.config.hw_quickpoweron=true
+persist.sys.use_dithering=0
+ro.mot.eri.losalert.delay=1000
+ro.ril.sensor.sleep.control=1
 ro.config.hw_quickpoweron=true
 # Better Responsiveness & Speed
-windowsmgr.max_events_per_sec=300
-ro.max.fling_velocity=15000 
-ro.min.fling_velocity=8000 
-ro.min_pointer_dur=8
-touch.pressure.scale=0.1
+touch.pressure.scale=0.001 
+persist.sys.ui.hw=1 
+view.scroll_friction=10 
+touch.size.calibration=diameter 
+touch.size.scale=1 
+touch.size.bias=0 
+touch.size.isSummed=0 
+touch.pressure.scale=0.001 
+touch.orientation.calibration=none 
+touch.distance.calibration=none 
+touch.distance.scale=0 
+touch.coverage.calibration=box 
+touch.gestureMode=spots 
+MultitouchSettleInterval=1ms 
+MultitouchMinDistance=1px 
+TapInterval=1ms 
+TapSlop=1px
 # Enable Multi User
 fw.max_users=5
 fw.show_multiuserui=1
@@ -320,21 +337,49 @@ debug.sf.showbackground=0
 debug.sf.showfps=0
 #Disables sending of usage data
 ro.config.nocheckin=1
-#makes apps load faster and frees more ram.
-dalvik.vm.dexopt-flags=m=y,v=n,o=v,u=n
 # Save Battery Without Performance Drop
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
 wifi.supplicant_scan_interval=180
+ro.config.hw_power_saving=1
+ro.config.hw_fast_dormancy=1
+ro.config.hw_quickpoweron=true
+persist.sys.use_dithering=0
+ro.mot.eri.losalert.delay=1000
+ro.ril.sensor.sleep.control=1
+ro.ril.power_collapse=1
 # Change Default Rendering Driver To Vulkan
 debug.hwui.renderer=vulkan
 # Disables blackscreen issue after a call
 ro.lge.proximity.delay=25
 mot.proximity.delay=25
 # Better RAM Management
-ro.HOME_APP_ADJ = 1
+ro.HOME_APP_ADJ=15
+ro.FOREGROUND_APP_ADJ=0
+ro.VISIBLE_APP_ADJ=4
+ro.HIDDEN_APP_MIN_ADJ=7
+dalvik.vm.dexopt-flags=m=y,v=n,o=v,u=n
+dalvik.vm.heapgrowthlimit=128m
+dalvik.vm.heapsize=256m
 # Disable Android logger – log-cat
 logcat.live=disable
+#Camera
+persist.camera.eis.enable=1
+persist.vendor.camera.eis.enable=1
+camera.eis.enable=1
+persist.hw_camera.video_sta=true
+persist.vendor.camera.HAL3.enabled=1
+persist.camera.HAL3.enabled=1
+ro.media.enc.jpeg.quality=100
+ro.camcorder.videoModes=true
+#Safetynet
+ro.knox.enhance.zygote.aslr=1
+ro.securestorage.support=false
+#Smooth UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+ro.ril.enable.a52=1
+ro.ril.enable.a53=0
 ####################################
 # End of AFFT Tool Tweaks
 ####################################
